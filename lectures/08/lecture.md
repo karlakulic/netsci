@@ -12,7 +12,7 @@ Network Analysis - Lecture 8
 Nikola Balic, Faculty of Natural Science, University of Split
 Data Science and Engineering Master Program
 
-30/04/2025
+04/05/2026
 
 ---
 
@@ -35,11 +35,27 @@ These properties are observed in many real-world networks!
 
 ---
 
+## What Does "Scale-Free" Mean?
+
+Scale-free means **free of one characteristic scale**.
+
+In many networks, the average degree describes a typical node fairly well.
+
+In a scale-free network, it does not:
+- most nodes have few links
+- a few hubs sit far above average
+- the degree pattern looks similar when we zoom in or out
+
+---
+
 ## Power-Law Degree Distribution
 
-Unlike random networks (Poisson distribution) or small-world networks (peaked near average)
+Unlike random networks (Poisson distribution) or small-world networks (peaked near average), scale-free networks have a heavy-tailed degree distribution
 
 ![width:900px bg right:70%](images/degree_distributions.png)
+
+The BA curve decays slowly: many low-degree nodes, a few high-degree hubs.
+On log-log axes, a power law appears roughly as a straight descending line.
 
 ---
 
@@ -61,11 +77,12 @@ Power-law distribution:
 
 $$P(k) \sim k^{-\alpha}$$
 
+Here, $k$ is node degree, $P(k)$ is the probability of degree $k$, and $\alpha$ controls how fast the tail decays.
+
 - **Mathematical properties:**
-  - The probability of finding a node with degree k decreases as
-- $$k^{-\alpha}$$
-  - Heavy-tailed distribution: Small probability of extremely high values
-  - Scale invariance: The shape looks the same at different scales
+  - The probability of finding a node with degree $k$ decreases as $k^{-\alpha}$
+  - Heavy-tailed distribution: Hubs are rare, but not negligible
+  - Scale invariance: Zooming in or out keeps a similar shape
 
 ![width:600px bg right](images/power_law_distribution.png)
 
@@ -94,6 +111,8 @@ Two key mechanisms:
 
    $$P(i) = \frac{k_i}{\sum_j k_j}$$
 
+   Here, $k_i$ is the degree of node $i$.
+
 5. Repeat until desired network size is reached
 
 ---
@@ -109,18 +128,26 @@ Two key mechanisms:
 ```python
 import networkx as nx
 import matplotlib.pyplot as plt
+import numpy as np
+from collections import Counter
 
 # Parameters
 n = 1000  # Number of nodes
 m = 2     # Number of edges to attach from a new node
 
 # Generate scale-free network
-G = nx.barabasi_albert_graph(n, m)
+G = nx.barabasi_albert_graph(n, m, seed=42)
 
 # Calculate degree distribution
 degrees = [d for _, d in G.degree()]
-plt.hist(degrees, bins=30, log=True)
-plt.xlabel('Degree')
+degree_counts = Counter(degrees)
+k = np.array(sorted(degree_counts))
+counts = np.array([degree_counts[degree] for degree in k])
+
+plt.scatter(k, counts)
+plt.xscale('log')
+plt.yscale('log')
+plt.xlabel('Degree (log scale)')
 plt.ylabel('Count (log scale)')
 plt.title('Degree Distribution of BA Network')
 plt.show()
@@ -134,7 +161,7 @@ plt.show()
 
 As m increases:
 - Network becomes more densely connected
-- Power-law exponent decreases
+- Each new node enters with more edges, but the power-law exponent remains α = 3
 - Hubs become less pronounced relative to other nodes
 
 ---
@@ -151,6 +178,8 @@ Note the presence of highly connected hubs (brighter colors)
 
 For the Barabási-Albert model:
 
+Here, $N$ is the number of nodes, $k$ is node degree, and $C$ is average clustering.
+
 - **Degree distribution:**
   $$P(k) \sim k^{-3}$$
 - **Average path length:**
@@ -158,7 +187,7 @@ For the Barabási-Albert model:
 - **Clustering coefficient:**
   $$C \sim N^{-0.75}$$
 
-Unlike small-world networks, clustering is lower but still higher than random networks.
+Unlike small-world networks, clustering is lower and decays with N, though it remains higher than an equivalent ER random graph for moderate network sizes.
 
 ---
 
@@ -207,28 +236,6 @@ Scale-free networks exhibit:
 
 ---
 
-## Real-World Scale-Free Networks
-
-![width:800px bg right:70%](images/real_world_examples.png)
-
----
-
-## Examples in Various Domains
-
-- **Internet:** Routers and connections
-- **World Wide Web:** Websites and hyperlinks
-- **Social Networks:** Twitter followers, scientific collaborations
-- **Biological Networks:** Protein interactions, metabolic networks
-- **Transportation:** Airline routes
-- **Citation Networks:** Scientific papers and citations
-- **Economic Networks:** Trade relationships, financial transactions
-
----
-
-![width:1200px bg](images/network_comparison_table.png)
-
----
-
 ## Limitations of Pure Scale-Free Models
 
 Real networks often deviate from perfect power laws:
@@ -251,7 +258,8 @@ How to determine if a network is scale-free:
 ```python
 import powerlaw
 # Fit power law to degree distribution
-fit = powerlaw.Fit(degrees)
+positive_degrees = [degree for degree in degrees if degree > 0]
+fit = powerlaw.Fit(positive_degrees, discrete=True)
 print(f"Power law exponent: {fit.alpha}")
 # Compare with alternative distributions
 R, p = fit.distribution_compare('power_law', 'exponential')
@@ -274,14 +282,25 @@ R, p = fit.distribution_compare('power_law', 'exponential')
 
 ---
 
-## Applications of Scale-Free Network Analysis
+## Real-World Scale-Free Networks
 
-- **Network Robustness:** Designing resilient infrastructure
-- **Epidemic Spreading:** Modeling disease transmission
-- **Targeted Interventions:** Identifying critical nodes
-- **Search Algorithms:** Finding information efficiently
-- **Recommendation Systems:** Leveraging network structure
-- **Marketing Strategies:** Identifying influential nodes
+![width:800px bg right:70%](images/real_world_examples.png)
+
+---
+
+## Network Model Comparison
+
+![width:1200px bg](images/network_comparison_table.png)
+
+---
+
+## What Scale-Free Structure Changes
+
+- **Hubs dominate outcomes:** A few nodes can control much of the flow
+- **Random failure is misleading:** Average-case damage can look small
+- **Targeted removal matters:** Attacking or protecting hubs changes the network quickly
+- **Spreading thresholds shift:** Hubs can sustain diffusion even when average degree is low
+- **Fairness concerns appear:** Hub-based strategies can reinforce existing visibility
 
 ---
 
@@ -290,7 +309,8 @@ R, p = fit.distribution_compare('power_law', 'exponential')
 ```python
 # Fitting and testing power-law distributions
 import powerlaw
-fit = powerlaw.Fit(degrees)
+positive_degrees = [degree for degree in degrees if degree > 0]
+fit = powerlaw.Fit(positive_degrees, discrete=True)
 print(f"Alpha: {fit.alpha}, xmin: {fit.xmin}")
 print(f"Goodness of fit: {fit.power_law.KS()}")
 
@@ -299,8 +319,8 @@ R, p = fit.distribution_compare('power_law', 'exponential')
 print(f"Log-likelihood ratio: {R}, p-value: {p}")
 
 # Creating scale-free networks with NetworkX
-G = nx.barabasi_albert_graph(n=1000, m=2)
-G = nx.powerlaw_cluster_graph(n=1000, m=2, p=0.1)
+G_ba = nx.barabasi_albert_graph(n=1000, m=2, seed=42)
+G_plc = nx.powerlaw_cluster_graph(n=1000, m=2, p=0.1, seed=42)
 ```
 
 ---
@@ -311,7 +331,7 @@ G = nx.powerlaw_cluster_graph(n=1000, m=2, p=0.1)
 2. They form through **growth** and **preferential attachment**
 3. They contain **hubs** that connect many other nodes
 4. They are **robust against random failures** but **vulnerable to targeted attacks**
-5. Many **real-world networks** exhibit scale-free properties
+5. Some **real-world networks** show scale-free-like degree patterns
 6. Understanding scale-free structure helps design **more resilient systems**
 
 ---

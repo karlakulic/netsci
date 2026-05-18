@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import powerlaw
+from collections import Counter
 
 # Create images directory if it doesn't exist
 os.makedirs('images', exist_ok=True)
@@ -18,6 +19,13 @@ def save_figure(filename, title=None, figsize=(10, 8), dpi=120):
     plt.tight_layout()
     plt.savefig(f'images/{filename}', dpi=dpi)
     plt.close()
+
+def degree_probability(degrees):
+    """Return sorted degree values and their empirical probabilities."""
+    counts = Counter(degrees)
+    k_values = np.array(sorted(counts))
+    probabilities = np.array([counts[k] / len(degrees) for k in k_values])
+    return k_values, probabilities
 
 def generate_ba_networks():
     """Generate Barabási-Albert networks with different parameters."""
@@ -102,9 +110,9 @@ def generate_degree_distributions():
     n = 10000  # Increased from 5000
 
     # Create three different networks
-    ba_graph = nx.barabasi_albert_graph(n=n, m=2)  # Scale-free
-    er_graph = nx.erdos_renyi_graph(n=n, p=4/n)    # Random
-    ws_graph = nx.watts_strogatz_graph(n=n, k=4, p=0.1)  # Small-world
+    ba_graph = nx.barabasi_albert_graph(n=n, m=2, seed=42)  # Scale-free
+    er_graph = nx.erdos_renyi_graph(n=n, p=4/n, seed=42)    # Random
+    ws_graph = nx.watts_strogatz_graph(n=n, k=4, p=0.1, seed=42)  # Small-world
 
     # Extract degree distributions
     ba_degrees = [d for _, d in ba_graph.degree()]
@@ -126,43 +134,31 @@ def generate_degree_distributions():
     plt.savefig('images/degree_distributions_linear.png', dpi=120)
     plt.close()
 
-    # Figure 2: Improved log-log plot for clearer power-law visualization
+    # Figure 2: Log-log plot using empirical P(k) for each integer degree
     fig, ax = plt.subplots(figsize=(10, 6))
 
-    # Use binning with logarithmic bins for clearer visualization
-    max_degree = max(max(ba_degrees), max(er_degrees), max(ws_degrees))
-    min_degree = 1
-
-    # Calculate log-spaced bins
-    bins = np.logspace(np.log10(min_degree), np.log10(max_degree), 20)
-
-    # Compute histograms with density=True for proper probability comparison
-    ba_hist, ba_edges = np.histogram(ba_degrees, bins=bins, density=True)
-    er_hist, er_edges = np.histogram(er_degrees, bins=bins, density=True)
-    ws_hist, ws_edges = np.histogram(ws_degrees, bins=bins, density=True)
-
-    # Get bin centers for plotting
-    ba_centers = (ba_edges[1:] + ba_edges[:-1]) / 2
-    er_centers = (er_edges[1:] + er_edges[:-1]) / 2
-    ws_centers = (ws_edges[1:] + ws_edges[:-1]) / 2
+    ba_k, ba_p = degree_probability(ba_degrees)
+    er_k, er_p = degree_probability(er_degrees)
+    ws_k, ws_p = degree_probability(ws_degrees)
 
     # Create log-log plots with larger markers and clear lines
-    ax.loglog(ba_centers, ba_hist, 'o-', color='#3274A1', linewidth=2,
+    ax.loglog(ba_k, ba_p, 'o-', color='#3274A1', linewidth=2,
               markersize=8, label='BA (Scale-Free)')
-    ax.loglog(er_centers, er_hist, 'o-', color='#E1812C', linewidth=2,
+    ax.loglog(er_k, er_p, 'o-', color='#E1812C', linewidth=2,
               markersize=8, label='ER (Random)')
-    ax.loglog(ws_centers, ws_hist, 'o-', color='#3A923A', linewidth=2,
+    ax.loglog(ws_k, ws_p, 'o-', color='#3A923A', linewidth=2,
               markersize=8, label='WS (Small-World)')
 
     # Draw a reference power-law line
     # Fit the BA network to find alpha
-    fit = powerlaw.Fit(ba_degrees)
+    fit = powerlaw.Fit(ba_degrees, discrete=True, verbose=False)
     alpha = fit.alpha
 
     # Plot a reference power-law line
+    max_degree = max(ba_degrees)
     k_range = np.logspace(np.log10(2), np.log10(max_degree/2), 10)
     # Adjust the normalization constant to match the BA data
-    norm_const = ba_hist[np.argmin(np.abs(ba_centers - 5))] * (5**alpha)
+    norm_const = ba_p[np.argmin(np.abs(ba_k - 5))] * (5**alpha)
     power_law = norm_const * k_range**(-alpha)
 
     ax.loglog(k_range, power_law, 'r--', linewidth=2.5,
@@ -176,7 +172,7 @@ def generate_degree_distributions():
     ax.legend(fontsize=12, loc='lower left')
 
     # Add text annotation explaining power-law
-    ax.text(0.65, 0.95, 'Power-law distribution:\nP(k) ~ k$^{-\\alpha}$',
+    ax.text(0.65, 0.95, 'Power-law distribution:\nP(k) $\\propto$ k$^{-\\alpha}$',
             transform=ax.transAxes, fontsize=12,
             bbox=dict(facecolor='white', alpha=0.8, boxstyle='round,pad=0.5'))
 
@@ -699,25 +695,41 @@ def generate_linear_scale_distribution():
     # Create the inset axes
     axins = ax.inset_axes([0.5, 0.5, 0.45, 0.45])
 
-    # Filter degrees to show only the higher values (e.g., above 95th percentile)
-    high_degree_threshold = np.percentile(degrees, 95)
-    high_degrees = [d for d in degrees if d >= high_degree_threshold]
+    # Zoom into the extreme tail: last portion of the degree range
+    max_degree = max(degrees)
+    zoom_xmin = int(max_degree * 0.6)
+    zoom_xmax = max_degree + max_degree * 0.05
 
-    # Plot the high degree distribution in the inset
+    # Filter degrees to the zoom range
+    high_degrees = [d for d in degrees if d >= zoom_xmin]
+
+    # Use narrow bins so individual hub nodes are visible
+    zoom_bins = np.arange(zoom_xmin, zoom_xmax + 1, 1)
+
     axins.hist(
         high_degrees,
-        bins=30,
+        bins=zoom_bins,
         alpha=0.8,
         color='salmon',
         edgecolor='black',
         linewidth=0.5
     )
 
+    axins.set_xlim(zoom_xmin, zoom_xmax)
+
     # Add title and labels to inset
-    axins.set_title('Zoom on High-Degree Nodes (Hubs)', fontsize=10)
+    axins.set_title('Zoom: Hub Nodes (High Degree)', fontsize=10)
     axins.set_xlabel('Degree', fontsize=8)
     axins.set_ylabel('Count', fontsize=8)
     axins.tick_params(labelsize=8)
+
+    # Draw a rectangle on the main plot indicating the zoomed region
+    from matplotlib.patches import Rectangle
+    rect = Rectangle(
+        (zoom_xmin, 0), zoom_xmax - zoom_xmin, max(counts) * 0.5,
+        linewidth=1.5, edgecolor='red', facecolor='none', linestyle='--'
+    )
+    ax.add_patch(rect)
 
     # Main plot styling
     ax.set_xlabel('Degree (k)', fontsize=14)
@@ -735,7 +747,6 @@ def generate_linear_scale_distribution():
     )
 
     # Draw an arrow pointing to the tail
-    max_degree = max(degrees)
     max_bin_height = max(counts)
     ax.annotate(
         'Power-law tail:\nHubs with many connections',
