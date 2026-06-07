@@ -1,0 +1,820 @@
+============================================================
+Hypothesis  : H1 — A small number of contractors captures a disproportionate share of public contract value
+Graph form  : bipartite multigraph (IsUponFA=false only; sensitivity check with call-offs)
+Null model  : degree-preserving rewiring of the bipartite CA–contractor graph (bipartite configuration model)
+Constraint  : exclude foreign contractors from strength metrics; test within CPV sector
+------------------------------------------------------------
+Rows loaded      : 383,374
+Analysis subset  : 343,373
+Foreign excluded : 4,270 (1.1%)
+============================================================
+
+=== PRIMARY ANALYSIS (IsUponFA=False) ===
+
+--- AGGREGATE (n_contracts=343,373, n_contractors=41,899) ---
+  Gini (contractor strength)
+    Null median : 0.9096
+    Null 95th % : 0.9104
+    Observed    : 0.9483
+    Excess      : +0.0388
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.6970
+    Null 95th % : 0.6981
+    Observed    : 0.7731
+    Excess      : +0.0761
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+
+=== PER-CPV-SECTOR (≥10 domestic contractors) ===
+
+--- CPV 3 (n_contracts=4,011, n_contractors=978) ---
+  Gini (contractor strength)
+    Null median : 0.7635
+    Null 95th % : 0.7733
+    Observed    : 0.8431
+    Excess      : +0.0796
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7552
+    Null 95th % : 0.7603
+    Observed    : 0.8640
+    Excess      : +0.1088
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 9 (n_contracts=4,607, n_contractors=433) ---
+  Gini (contractor strength)
+    Null median : 0.9546
+    Null 95th % : 0.9597
+    Observed    : 0.9827
+    Excess      : +0.0281
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7811
+    Null 95th % : 0.7913
+    Observed    : 0.8596
+    Excess      : +0.0785
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 14 (n_contracts=1,104, n_contractors=445) ---
+  Gini (contractor strength)
+    Null median : 0.7331
+    Null 95th % : 0.7471
+    Observed    : 0.8026
+    Excess      : +0.0696
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8238
+    Null 95th % : 0.8315
+    Observed    : 0.9217
+    Excess      : +0.0979
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 15 (n_contracts=18,618, n_contractors=1,647) ---
+  Gini (contractor strength)
+    Null median : 0.8725
+    Null 95th % : 0.8759
+    Observed    : 0.9234
+    Excess      : +0.0509
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.6890
+    Null 95th % : 0.6930
+    Observed    : 0.8111
+    Excess      : +0.1221
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 16 (n_contracts=1,297, n_contractors=383) ---
+  Gini (contractor strength)
+    Null median : 0.7958
+    Null 95th % : 0.8094
+    Observed    : 0.8703
+    Excess      : +0.0745
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8054
+    Null 95th % : 0.8145
+    Observed    : 0.8305
+    Excess      : +0.0251
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 18 (n_contracts=5,529, n_contractors=1,358) ---
+  Gini (contractor strength)
+    Null median : 0.8175
+    Null 95th % : 0.8245
+    Observed    : 0.8940
+    Excess      : +0.0765
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7852
+    Null 95th % : 0.7899
+    Observed    : 0.8549
+    Excess      : +0.0697
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 19 (n_contracts=1,230, n_contractors=464) ---
+  Gini (contractor strength)
+    Null median : 0.7518
+    Null 95th % : 0.7657
+    Observed    : 0.8337
+    Excess      : +0.0819
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8276
+    Null 95th % : 0.8352
+    Observed    : 0.9145
+    Excess      : +0.0869
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 22 (n_contracts=10,424, n_contractors=1,853) ---
+  Gini (contractor strength)
+    Null median : 0.8799
+    Null 95th % : 0.8840
+    Observed    : 0.9379
+    Excess      : +0.0580
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7821
+    Null 95th % : 0.7861
+    Observed    : 0.8232
+    Excess      : +0.0411
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 24 (n_contracts=3,621, n_contractors=619) ---
+  Gini (contractor strength)
+    Null median : 0.8375
+    Null 95th % : 0.8470
+    Observed    : 0.8848
+    Excess      : +0.0474
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7756
+    Null 95th % : 0.7838
+    Observed    : 0.8570
+    Excess      : +0.0814
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 30 (n_contracts=13,582, n_contractors=2,093) ---
+  Gini (contractor strength)
+    Null median : 0.8708
+    Null 95th % : 0.8750
+    Observed    : 0.9084
+    Excess      : +0.0376
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7513
+    Null 95th % : 0.7552
+    Observed    : 0.8048
+    Excess      : +0.0535
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 31 (n_contracts=6,222, n_contractors=1,952) ---
+  Gini (contractor strength)
+    Null median : 0.8840
+    Null 95th % : 0.8883
+    Observed    : 0.9311
+    Excess      : +0.0470
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8395
+    Null 95th % : 0.8436
+    Observed    : 0.8858
+    Excess      : +0.0463
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 32 (n_contracts=3,083, n_contractors=985) ---
+  Gini (contractor strength)
+    Null median : 0.8810
+    Null 95th % : 0.8868
+    Observed    : 0.9245
+    Excess      : +0.0434
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8130
+    Null 95th % : 0.8183
+    Observed    : 0.8480
+    Excess      : +0.0349
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 33 (n_contracts=21,531, n_contractors=1,258) ---
+  Gini (contractor strength)
+    Null median : 0.8811
+    Null 95th % : 0.8863
+    Observed    : 0.9287
+    Excess      : +0.0476
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.6916
+    Null 95th % : 0.6968
+    Observed    : 0.7437
+    Excess      : +0.0521
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 34 (n_contracts=10,459, n_contractors=2,645) ---
+  Gini (contractor strength)
+    Null median : 0.9108
+    Null 95th % : 0.9141
+    Observed    : 0.9579
+    Excess      : +0.0470
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8257
+    Null 95th % : 0.8296
+    Observed    : 0.8557
+    Excess      : +0.0300
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 35 (n_contracts=2,260, n_contractors=747) ---
+  Gini (contractor strength)
+    Null median : 0.8826
+    Null 95th % : 0.8880
+    Observed    : 0.9148
+    Excess      : +0.0322
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8140
+    Null 95th % : 0.8205
+    Observed    : 0.8602
+    Excess      : +0.0462
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 37 (n_contracts=2,587, n_contractors=768) ---
+  Gini (contractor strength)
+    Null median : 0.7639
+    Null 95th % : 0.7739
+    Observed    : 0.8475
+    Excess      : +0.0835
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8095
+    Null 95th % : 0.8150
+    Observed    : 0.8560
+    Excess      : +0.0464
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 38 (n_contracts=3,905, n_contractors=948) ---
+  Gini (contractor strength)
+    Null median : 0.8201
+    Null 95th % : 0.8289
+    Observed    : 0.8723
+    Excess      : +0.0522
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8015
+    Null 95th % : 0.8069
+    Observed    : 0.8396
+    Excess      : +0.0382
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 39 (n_contracts=17,347, n_contractors=3,896) ---
+  Gini (contractor strength)
+    Null median : 0.8399
+    Null 95th % : 0.8438
+    Observed    : 0.8851
+    Excess      : +0.0452
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7917
+    Null 95th % : 0.7944
+    Observed    : 0.8432
+    Excess      : +0.0515
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 41 (n_contracts=282, n_contractors=63) ---
+  Gini (contractor strength)
+    Null median : 0.7987
+    Null 95th % : 0.8298
+    Observed    : 0.8123
+    Excess      : +0.0136
+    p-value     : 0.2096  (one-tailed, n=500 iterations)
+    Result      : FAIL TO REJECT NULL
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8011
+    Null 95th % : 0.8232
+    Observed    : 0.8903
+    Excess      : +0.0892
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 42 (n_contracts=4,994, n_contractors=1,807) ---
+  Gini (contractor strength)
+    Null median : 0.8103
+    Null 95th % : 0.8155
+    Observed    : 0.8303
+    Excess      : +0.0200
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8024
+    Null 95th % : 0.8063
+    Observed    : 0.8515
+    Excess      : +0.0491
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 43 (n_contracts=1,037, n_contractors=493) ---
+  Gini (contractor strength)
+    Null median : 0.8009
+    Null 95th % : 0.8128
+    Observed    : 0.8328
+    Excess      : +0.0319
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8781
+    Null 95th % : 0.8852
+    Observed    : 0.9025
+    Excess      : +0.0244
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 44 (n_contracts=11,590, n_contractors=3,445) ---
+  Gini (contractor strength)
+    Null median : 0.8864
+    Null 95th % : 0.8890
+    Observed    : 0.9131
+    Excess      : +0.0268
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8270
+    Null 95th % : 0.8300
+    Observed    : 0.8875
+    Excess      : +0.0605
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 45 (n_contracts=41,660, n_contractors=9,999) ---
+  Gini (contractor strength)
+    Null median : 0.8883
+    Null 95th % : 0.8900
+    Observed    : 0.9519
+    Excess      : +0.0637
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7727
+    Null 95th % : 0.7747
+    Observed    : 0.8528
+    Excess      : +0.0801
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 48 (n_contracts=4,186, n_contractors=1,013) ---
+  Gini (contractor strength)
+    Null median : 0.8671
+    Null 95th % : 0.8741
+    Observed    : 0.9317
+    Excess      : +0.0646
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7775
+    Null 95th % : 0.7835
+    Observed    : 0.8265
+    Excess      : +0.0491
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 50 (n_contracts=31,032, n_contractors=7,200) ---
+  Gini (contractor strength)
+    Null median : 0.8730
+    Null 95th % : 0.8749
+    Observed    : 0.9156
+    Excess      : +0.0426
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7558
+    Null 95th % : 0.7582
+    Observed    : 0.8432
+    Excess      : +0.0874
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 51 (n_contracts=593, n_contractors=389) ---
+  Gini (contractor strength)
+    Null median : 0.7777
+    Null 95th % : 0.7847
+    Observed    : 0.7914
+    Excess      : +0.0137
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8767
+    Null 95th % : 0.8827
+    Observed    : 0.9581
+    Excess      : +0.0815
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 55 (n_contracts=6,990, n_contractors=2,181) ---
+  Gini (contractor strength)
+    Null median : 0.8395
+    Null 95th % : 0.8445
+    Observed    : 0.8972
+    Excess      : +0.0578
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8129
+    Null 95th % : 0.8165
+    Observed    : 0.8693
+    Excess      : +0.0564
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 60 (n_contracts=3,920, n_contractors=1,227) ---
+  Gini (contractor strength)
+    Null median : 0.9609
+    Null 95th % : 0.9629
+    Observed    : 0.9806
+    Excess      : +0.0196
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8232
+    Null 95th % : 0.8290
+    Observed    : 0.9104
+    Excess      : +0.0872
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 63 (n_contracts=1,802, n_contractors=629) ---
+  Gini (contractor strength)
+    Null median : 0.8821
+    Null 95th % : 0.8904
+    Observed    : 0.8861
+    Excess      : +0.0040
+    p-value     : 0.2036  (one-tailed, n=500 iterations)
+    Result      : FAIL TO REJECT NULL
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8406
+    Null 95th % : 0.8474
+    Observed    : 0.9116
+    Excess      : +0.0710
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 64 (n_contracts=3,480, n_contractors=401) ---
+  Gini (contractor strength)
+    Null median : 0.9683
+    Null 95th % : 0.9712
+    Observed    : 0.9843
+    Excess      : +0.0161
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8363
+    Null 95th % : 0.8457
+    Observed    : 0.9129
+    Excess      : +0.0766
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 65 (n_contracts=754, n_contractors=264) ---
+  Gini (contractor strength)
+    Null median : 0.8236
+    Null 95th % : 0.8367
+    Observed    : 0.8858
+    Excess      : +0.0622
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8018
+    Null 95th % : 0.8122
+    Observed    : 0.9126
+    Excess      : +0.1107
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 66 (n_contracts=4,200, n_contractors=238) ---
+  Gini (contractor strength)
+    Null median : 0.9362
+    Null 95th % : 0.9439
+    Observed    : 0.9401
+    Excess      : +0.0039
+    p-value     : 0.1936  (one-tailed, n=500 iterations)
+    Result      : FAIL TO REJECT NULL
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7746
+    Null 95th % : 0.7868
+    Observed    : 0.8348
+    Excess      : +0.0602
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 70 (n_contracts=623, n_contractors=366) ---
+  Gini (contractor strength)
+    Null median : 0.8907
+    Null 95th % : 0.8950
+    Observed    : 0.9026
+    Excess      : +0.0119
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8549
+    Null 95th % : 0.8625
+    Observed    : 0.9568
+    Excess      : +0.1019
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 71 (n_contracts=31,877, n_contractors=5,451) ---
+  Gini (contractor strength)
+    Null median : 0.8088
+    Null 95th % : 0.8111
+    Observed    : 0.8602
+    Excess      : +0.0514
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.6507
+    Null 95th % : 0.6527
+    Observed    : 0.7542
+    Excess      : +0.1035
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 72 (n_contracts=12,913, n_contractors=2,612) ---
+  Gini (contractor strength)
+    Null median : 0.8787
+    Null 95th % : 0.8822
+    Observed    : 0.9326
+    Excess      : +0.0539
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7495
+    Null 95th % : 0.7531
+    Observed    : 0.8332
+    Excess      : +0.0837
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 73 (n_contracts=913, n_contractors=493) ---
+  Gini (contractor strength)
+    Null median : 0.6077
+    Null 95th % : 0.6233
+    Observed    : 0.6171
+    Excess      : +0.0094
+    p-value     : 0.1557  (one-tailed, n=500 iterations)
+    Result      : FAIL TO REJECT NULL
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8505
+    Null 95th % : 0.8558
+    Observed    : 0.9187
+    Excess      : +0.0682
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 75 (n_contracts=573, n_contractors=315) ---
+  Gini (contractor strength)
+    Null median : 0.8210
+    Null 95th % : 0.8300
+    Observed    : 0.8498
+    Excess      : +0.0288
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8609
+    Null 95th % : 0.8699
+    Observed    : 0.9627
+    Excess      : +0.1017
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 76 (n_contracts=138, n_contractors=85) ---
+  Gini (contractor strength)
+    Null median : 0.8086
+    Null 95th % : 0.8234
+    Observed    : 0.8458
+    Excess      : +0.0372
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8737
+    Null 95th % : 0.8898
+    Observed    : 0.9783
+    Excess      : +0.1046
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 77 (n_contracts=2,226, n_contractors=948) ---
+  Gini (contractor strength)
+    Null median : 0.7843
+    Null 95th % : 0.7921
+    Observed    : 0.8154
+    Excess      : +0.0311
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8171
+    Null 95th % : 0.8229
+    Observed    : 0.9192
+    Excess      : +0.1021
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 79 (n_contracts=21,053, n_contractors=6,462) ---
+  Gini (contractor strength)
+    Null median : 0.7921
+    Null 95th % : 0.7949
+    Observed    : 0.8490
+    Excess      : +0.0569
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7795
+    Null 95th % : 0.7814
+    Observed    : 0.8548
+    Excess      : +0.0754
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 80 (n_contracts=4,833, n_contractors=1,666) ---
+  Gini (contractor strength)
+    Null median : 0.8236
+    Null 95th % : 0.8297
+    Observed    : 0.7888
+    Excess      : -0.0348
+    p-value     : 1.0000  (one-tailed, n=500 iterations)
+    Result      : FAIL TO REJECT NULL
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8321
+    Null 95th % : 0.8364
+    Observed    : 0.8663
+    Excess      : +0.0342
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+--- CPV 85 (n_contracts=3,646, n_contractors=703) ---
+  Gini (contractor strength)
+    Null median : 0.7808
+    Null 95th % : 0.7898
+    Observed    : 0.8078
+    Excess      : +0.0270
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7177
+    Null 95th % : 0.7239
+    Observed    : 0.8224
+    Excess      : +0.1046
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 90 (n_contracts=8,545, n_contractors=1,962) ---
+  Gini (contractor strength)
+    Null median : 0.8505
+    Null 95th % : 0.8543
+    Observed    : 0.8968
+    Excess      : +0.0462
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7425
+    Null 95th % : 0.7465
+    Observed    : 0.8413
+    Excess      : +0.0988
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 92 (n_contracts=3,656, n_contractors=2,129) ---
+  Gini (contractor strength)
+    Null median : 0.6509
+    Null 95th % : 0.6574
+    Observed    : 0.7053
+    Excess      : +0.0544
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8613
+    Null 95th % : 0.8640
+    Observed    : 0.9290
+    Excess      : +0.0678
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+--- CPV 98 (n_contracts=4,440, n_contractors=2,554) ---
+  Gini (contractor strength)
+    Null median : 0.8112
+    Null 95th % : 0.8149
+    Observed    : 0.8396
+    Excess      : +0.0284
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.8769
+    Null 95th % : 0.8801
+    Observed    : 0.9498
+    Excess      : +0.0729
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+
+
+=== SENSITIVITY CHECK (IsUponFA=True included) ===
+
+(sensitivity subset rows: 378,833)
+
+--- AGGREGATE (incl. call-offs) (n_contracts=378,833, n_contractors=42,003) ---
+  Gini (contractor strength)
+    Null median : 0.9135
+    Null 95th % : 0.9144
+    Observed    : 0.9531
+    Excess      : +0.0396
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — but excess below effect threshold (significant, not substantive)
+
+  Mean contractor HHI (Y_i)
+    Null median : 0.7061
+    Null 95th % : 0.7073
+    Observed    : 0.7734
+    Excess      : +0.0672
+    p-value     : 0.0020  (one-tailed, n=500 iterations)
+    Result      : REJECT NULL — effect above threshold
+

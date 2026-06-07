@@ -1,0 +1,7 @@
+# Ignore everything in data/ except .gitkeep files
+data/*
+!data/.gitkeep
+!data/**/.gitkeep
+
+# Ignore Python bytecode cache in analysis/
+analysis/__pycache__/

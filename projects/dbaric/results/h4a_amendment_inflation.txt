@@ -1,0 +1,81 @@
+============================================================
+Hypothesis  : H4a — Contracts with established vendors are amended to higher values more than first-contract pairs of equivalent market size
+Graph form  : bipartite multigraph (prior-relationship label from graph structure)
+Null model  : bipartite configuration model; prior-relationship status determined by rewired graph structure
+Constraint  : amendments are rare (mean TotalValue ≈ mean InitialValue); restrict to InitialValue > 0; signal concentrated in small fraction of contracts
+------------------------------------------------------------
+Rows loaded      : 383,374
+Analysis subset  : 343,075
+Foreign excluded : 4,270 (1.1%)
+============================================================
+Amendment rarity (TotalValue/InitialValue > 1.01): 0.0230 (2.30% of contracts)
+
+Prior relationships : 187,114
+First contracts     : 155,961
+
+=== Overall ===
+  Null median : -6.3726
+  Null 95th % : -6.3493
+  Observed    : 10.6870
+  Excess      : +17.0595
+  p-value     : 0.0100  (one-tailed, n=500 iterations)
+  RESULT [overall]: reject null — effect above threshold
+
+=== By ContractTypeId (1=supplies, 2=services, 3=works) ===
+  [type=1]  prior=21,334  first=20,313
+  Null median : -0.0300
+  Null 95th % : -0.0009
+  Observed    : 0.0007
+  Excess      : +0.0307
+  p-value     : 0.0479  (one-tailed, n=500 iterations)
+  RESULT [type=1]: reject null — excess below effect threshold
+
+  [type=2]  prior=83,985  first=69,391
+  Null median : -14.9101
+  Null 95th % : -14.8645
+  Observed    : -28.9122
+  Excess      : -14.0021
+  p-value     : 1.0000  (one-tailed, n=500 iterations)
+  RESULT [type=2]: fail to reject null
+
+  [type=3]  prior=69,760  first=78,292
+  Null median : -0.0260
+  Null 95th % : -0.0014
+  Observed    : -0.0088
+  Excess      : +0.0172
+  p-value     : 0.1178  (one-tailed, n=500 iterations)
+  RESULT [type=3]: fail to reject null
+
+=== By TotalValue quartile ===
+  [quartile=1]  prior=42,344  first=43,436
+  Null median : -0.0260
+  Null 95th % : -0.0124
+  Observed    : 0.0081
+  Excess      : +0.0341
+  p-value     : 0.0020  (one-tailed, n=500 iterations)
+  RESULT [quartile=1]: reject null — excess below effect threshold
+
+  [quartile=2]  prior=30,554  first=55,204
+  Null median : -0.1234
+  Null 95th % : -0.0487
+  Observed    : -0.1337
+  Excess      : -0.0103
+  p-value     : 0.7146  (one-tailed, n=500 iterations)
+  RESULT [quartile=2]: fail to reject null
+
+  [quartile=3]  prior=33,486  first=52,282
+  Null median : -0.0570
+  Null 95th % : -0.0006
+  Observed    : -0.0377
+  Excess      : +0.0193
+  p-value     : 0.2415  (one-tailed, n=500 iterations)
+  RESULT [quartile=3]: fail to reject null
+
+  [quartile=4]  prior=39,604  first=46,165
+  Null median : -24.6090
+  Null 95th % : -24.5565
+  Observed    : 50.5063
+  Excess      : +75.1153
+  p-value     : 0.0080  (one-tailed, n=500 iterations)
+  RESULT [quartile=4]: reject null — effect above threshold
+
