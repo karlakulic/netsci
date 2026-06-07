@@ -25,7 +25,7 @@ Javna nabava razlikuje se od privatnih tržišta: kupac (država) je ograničen 
 
 Obrazac ugovora koji odstupa od očekivanog pri kompetitivnoj dodjeli strukturni je signal vidljiv tek kada se ugovori analiziraju kao bridovi u relacijskoj mreži. Bipartitni graf (naručitelji × izvođači) omogućuje mjerenje distribucijskih svojstava — HHI, stope ponovnog povezivanja, Jaccardovog preklapanja — koja se ne mogu izračunati iz pojedinačnog ugovora.
 
-**Hrvatski kontekst:** Prozor 2024.–2026. obuhvaća prvi puni ciklus nabave nakon ulaska u eurozonu (siječanj 2023.), s pragovima u eurima. ZJN 2016 postavlja prag za izravne dodjele: €26.540 za robu/usluge i €66.360 za radove. 78,6% ugovora pada ispod ovih pragova. Ukupna vrijednost nabave: ~€21,7 milijardi kroz ~2,5 godine (~4–5% BDP-a godišnje).
+**Hrvatski kontekst:** Prozor 2024.–2026. obuhvaća prvi puni ciklus nabave nakon ulaska u eurozonu (siječanj 2023.), s pragovima u eurima. ZJN 2016 postavlja prag za izravne dodjele: €26.540 za robu/usluge i €66.360 za radove. 78,6% ugovora pada ispod ovih pragova. Ukupna vrijednost nabave: ~€21,7 milijardi kroz ~2,5 godine (~10% BDP-a godišnje).
 
 ---
 
@@ -445,10 +445,10 @@ NMI(spektralno, CPV) = 0,080; NMI(nasumično, CPV) = 0,004 ± 0,0004; z=182.
 Sve analize izvršavaju se iz korijenskog direktorija:
 
 ```bash
-uv run python helpers/prepare_data.py          # Čišćenje
-uv run python analysis/exploration.py           # Eksploracija
-uv run python analysis/h1_concentration.py      # Hipoteze (svaka neovisna)
-uv run python analysis/exploitation_spectral.py # Eksploatacija
+python helpers/prepare_data.py          # Čišćenje
+python analysis/exploration.py           # Eksploracija
+python analysis/h1_concentration.py      # Hipoteze (svaka neovisna)
+python analysis/exploitation_spectral.py # Eksploatacija
 ```
 
 Svaka skripta učitava `data/contracts_clean.csv`, primjenjuje standardne filtre, izvršava 500 null-model iteracija i ispisuje rezultate u `results/`.
