@@ -1,0 +1,705 @@
+============================================================
+Hypothesis  : H1b — Removing the competitive requirement amplifies vendor concentration
+Graph form  : bipartite multigraph (assumed-discretionary and assumed-competitive subgraphs)
+Null model  : procedure-type label permutation (shuffle is_discretionary/is_competitive labels across edges)
+Constraint  : ProcedureTypeId label mapping unverified — all results conditional on ID 11=discretionary, ID 1=competitive
+CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption
+------------------------------------------------------------
+Rows loaded      : 383,374
+Analysis subset  : 343,373
+Foreign excluded : 4,270 (1.1%)
+============================================================
+
+H1 outcome must be examined before interpreting H1b results. H1b is exploratory — cannot be elevated to a finding without a separate pre-registered test.
+
+--- AGGREGATE  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 296,877
+  Assumed-competitive edges   : 35,467
+  Observed Gini (assumed-discretionary) : 0.8170  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8796  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0626  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0100  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0172  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0212  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0100  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0072  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+=== PER-CPV-SECTOR (≥10 domestic contractors) ===
+
+--- CPV 3  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,619
+  Assumed-competitive edges   : 327
+  Observed Gini (assumed-discretionary) : 0.7856  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.5900  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.1956  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.1251  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0316  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0565  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.1251  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0935  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — effect above threshold  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 9  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,362
+  Assumed-competitive edges   : 1,102
+  Observed Gini (assumed-discretionary) : 0.9284  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.9371  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0087  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0054  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : -0.0003  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0108  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0054  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0057  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.2355  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 14  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 975
+  Assumed-competitive edges   : 117
+  Observed Gini (assumed-discretionary) : 0.6786  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6296  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0490  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0273  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0465  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0782  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0273  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0192  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.8443  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 15  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 15,493
+  Assumed-competitive edges   : 2,841
+  Observed Gini (assumed-discretionary) : 0.8945  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7743  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.1203  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0886  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0009  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0107  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0886  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0876  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — effect above threshold  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 16  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 1,074
+  Assumed-competitive edges   : 210
+  Observed Gini (assumed-discretionary) : 0.7203  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6444  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0759  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0623  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0294  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0572  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0623  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0330  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0299  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — but excess below effect threshold (significant, not substantive)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 18  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 5,160
+  Assumed-competitive edges   : 260
+  Observed Gini (assumed-discretionary) : 0.8087  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7102  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0984  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0751  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0322  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0592  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0751  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0429  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — but excess below effect threshold (significant, not substantive)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 19  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 1,016
+  Assumed-competitive edges   : 195
+  Observed Gini (assumed-discretionary) : 0.7300  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7186  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0114  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0483  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0327  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0636  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0483  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0156  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.2335  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 22  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 10,101
+  Assumed-competitive edges   : 202
+  Observed Gini (assumed-discretionary) : 0.9048  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7015  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.2033  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0345  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : -0.0019  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0401  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0345  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0364  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0978  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 24  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 2,860
+  Assumed-competitive edges   : 550
+  Observed Gini (assumed-discretionary) : 0.8235  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6827  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.1408  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.1194  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0190  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0383  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.1194  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.1004  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — effect above threshold  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 30  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 12,411
+  Assumed-competitive edges   : 793
+  Observed Gini (assumed-discretionary) : 0.8141  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8079  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0062  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0151  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0181  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0299  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0151  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0030  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.6527  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 31  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 5,681
+  Assumed-competitive edges   : 458
+  Observed Gini (assumed-discretionary) : 0.7624  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8413  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0789  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0130  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0187  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0427  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0130  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0317  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 32  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 2,712
+  Assumed-competitive edges   : 287
+  Observed Gini (assumed-discretionary) : 0.6616  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8554  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.1938  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0557  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0235  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0385  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0557  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0792  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 33  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 13,290
+  Assumed-competitive edges   : 6,075
+  Observed Gini (assumed-discretionary) : 0.8590  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8017  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0573  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0154  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : -0.0009  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0057  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0154  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0163  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — but excess below effect threshold (significant, not substantive)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 34  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 8,351
+  Assumed-competitive edges   : 1,931
+  Observed Gini (assumed-discretionary) : 0.7595  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8784  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.1189  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0155  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0130  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0295  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0155  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0025  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.4212  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 35  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 1,942
+  Assumed-competitive edges   : 215
+  Observed Gini (assumed-discretionary) : 0.6810  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8289  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.1478  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0059  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0159  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0336  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0059  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0099  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.7385  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 37  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 2,329
+  Assumed-competitive edges   : 224
+  Observed Gini (assumed-discretionary) : 0.8260  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.5455  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.2805  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.1041  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0228  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0540  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.1041  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0812  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — effect above threshold  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 38  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,079
+  Assumed-competitive edges   : 722
+  Observed Gini (assumed-discretionary) : 0.7635  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6897  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0737  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0883  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0164  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0324  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0883  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0719  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — effect above threshold  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 39  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 15,817
+  Assumed-competitive edges   : 1,225
+  Observed Gini (assumed-discretionary) : 0.7814  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7426  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0387  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0114  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0230  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0350  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0114  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0116  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.9581  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 41  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 272
+  Assumed-competitive edges   : 5
+  Observed Gini (assumed-discretionary) : 0.7660  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.4102  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.3558  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.1222  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0017  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.1247  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.1222  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.1240  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.9002  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 42  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 4,444
+  Assumed-competitive edges   : 389
+  Observed Gini (assumed-discretionary) : 0.6362  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6904  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0541  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0353  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0135  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0231  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0353  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0218  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — but excess below effect threshold (significant, not substantive)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 43  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 899
+  Assumed-competitive edges   : 117
+  Observed Gini (assumed-discretionary) : 0.6545  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6108  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0438  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0183  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0213  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0435  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0183  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0395  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.9900  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 44  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 10,833
+  Assumed-competitive edges   : 607
+  Observed Gini (assumed-discretionary) : 0.7498  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8651  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.1154  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0173  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0107  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0337  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0173  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0066  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.2355  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 45  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 34,056
+  Assumed-competitive edges   : 6,359
+  Observed Gini (assumed-discretionary) : 0.7483  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8418  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0935  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0256  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0260  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0369  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0256  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0004  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.5210  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 48  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,549
+  Assumed-competitive edges   : 466
+  Observed Gini (assumed-discretionary) : 0.7069  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8380  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.1311  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0076  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0183  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0439  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0076  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0259  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 50  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 28,520
+  Assumed-competitive edges   : 1,500
+  Observed Gini (assumed-discretionary) : 0.7517  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8022  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0505  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0034  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0224  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0364  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0034  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0190  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 51  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 542
+  Assumed-competitive edges   : 34
+  Observed Gini (assumed-discretionary) : 0.4862  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6042  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.1180  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0119  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0117  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0297  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0119  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0236  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.9501  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 55  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 6,553
+  Assumed-competitive edges   : 347
+  Observed Gini (assumed-discretionary) : 0.7863  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6281  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.1582  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0324  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0387  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0518  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0324  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0063  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.7645  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 60  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,495
+  Assumed-competitive edges   : 341
+  Observed Gini (assumed-discretionary) : 0.7463  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.9485  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.2022  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0218  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0099  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0176  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0218  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0317  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.9960  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 63  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 1,680
+  Assumed-competitive edges   : 69
+  Observed Gini (assumed-discretionary) : 0.7512  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6607  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0905  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0446  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0161  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0428  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0446  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0607  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 64  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,111
+  Assumed-competitive edges   : 291
+  Observed Gini (assumed-discretionary) : 0.9386  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.9085  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0301  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0585  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : -0.0226  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0297  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0585  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0811  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — effect above threshold  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 65  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 687
+  Assumed-competitive edges   : 32
+  Observed Gini (assumed-discretionary) : 0.7289  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6459  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0830  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0030  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0275  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0630  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0030  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0245  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.8044  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 66  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,808
+  Assumed-competitive edges   : 323
+  Observed Gini (assumed-discretionary) : 0.9061  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7427  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.1634  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0548  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0148  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0501  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0548  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0695  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 70  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 610
+  Assumed-competitive edges   : 13
+  Observed Gini (assumed-discretionary) : 0.7665  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7420  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0246  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0422  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0116  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0216  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0422  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0306  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0120  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — but excess below effect threshold (significant, not substantive)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 71  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 27,722
+  Assumed-competitive edges   : 2,768
+  Observed Gini (assumed-discretionary) : 0.7081  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8271  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.1189  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0093  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0174  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0270  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0093  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0082  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.9261  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 72  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 10,807
+  Assumed-competitive edges   : 1,174
+  Observed Gini (assumed-discretionary) : 0.9121  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.8101  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.1021  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0467  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0088  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0340  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0467  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0555  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 73  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 842
+  Assumed-competitive edges   : 43
+  Observed Gini (assumed-discretionary) : 0.5702  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.4222  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.1481  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0109  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0059  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0331  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0109  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0050  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.3872  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 75  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 540
+  Assumed-competitive edges   : 25
+  Observed Gini (assumed-discretionary) : 0.6441  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6982  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0541  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0029  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0253  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0474  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0029  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0224  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.8064  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 76  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 117
+  Assumed-competitive edges   : 9
+  Observed Gini (assumed-discretionary) : 0.5860  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.3660  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.2200  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.2139  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0252  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0747  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.2139  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.1887  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0020  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — effect above threshold  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 77  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 1,764
+  Assumed-competitive edges   : 174
+  Observed Gini (assumed-discretionary) : 0.5918  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6374  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0456  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0064  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0165  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0294  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0064  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0101  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.8343  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 79  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 19,721
+  Assumed-competitive edges   : 940
+  Observed Gini (assumed-discretionary) : 0.7414  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7803  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0389  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0182  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0359  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0462  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0182  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0542  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 80  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 4,761
+  Assumed-competitive edges   : 44
+  Observed Gini (assumed-discretionary) : 0.7247  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6185  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.1062  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0896  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : -0.0292  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : -0.0148  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0896  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0604  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 85  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,189
+  Assumed-competitive edges   : 361
+  Observed Gini (assumed-discretionary) : 0.7196  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6567  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.0630  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0336  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0128  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0329  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0336  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0209  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0459  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — but excess below effect threshold (significant, not substantive)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 90  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 7,198
+  Assumed-competitive edges   : 1,164
+  Observed Gini (assumed-discretionary) : 0.7130  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.7861  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0731  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0293  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0160  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0303  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0293  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0133  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0659  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 92  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 3,594
+  Assumed-competitive edges   : 40
+  Observed Gini (assumed-discretionary) : 0.6272  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.6520  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : -0.0248  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : +0.0699  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0530  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0604  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : 0.0699  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : +0.0169  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 0.0060  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : REJECT NULL — but excess below effect threshold (significant, not substantive)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+
+--- CPV 98  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption] ---
+  Assumed-discretionary edges : 4,291
+  Assumed-competitive edges   : 98
+  Observed Gini (assumed-discretionary) : 0.8136  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Gini (assumed-competitive)   : 0.5264  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed raw Gini gap                 : +0.2872  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ(Gini excess)               : -0.0081  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Running permutation null (n=500) …
+  Null median Δ : 0.0260  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Null 95th %   : 0.0353  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Observed Δ    : -0.0081  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Excess        : -0.0341  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  p-value       : 1.0000  (one-tailed, n=500)  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]
+  Result        : FAIL TO REJECT NULL  [CAVEAT: results are conditional on ProcedureTypeId 11 = discretionary and 1 = competitive being correct — unverified assumption]

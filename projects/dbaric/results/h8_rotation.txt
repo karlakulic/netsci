@@ -1,0 +1,111 @@
+============================================================
+Hypothesis  : H8 — Within specific authority–sector combinations, the same small set of contractors takes turns winning contracts
+Graph form  : bipartite multigraph sorted by ContractDate within CA–CPV cells
+Null model  : within-cell sequence permutation (1,000 permutations per cell)
+Constraint  : cells require >=5 contracts and >=2 distinct contractors; ProcedureTypeId classification caveat for secondary test
+------------------------------------------------------------
+Rows loaded      : 383,374
+Analysis subset  : 343,373
+Foreign excluded : 4,270 (1.1%)
+============================================================
+
+[primary] Eligible cells: 13,545
+  ... processed 1,000/13,545 cells
+  ... processed 2,000/13,545 cells
+  ... processed 3,000/13,545 cells
+  ... processed 4,000/13,545 cells
+  ... processed 5,000/13,545 cells
+  ... processed 6,000/13,545 cells
+  ... processed 7,000/13,545 cells
+  ... processed 8,000/13,545 cells
+  ... processed 9,000/13,545 cells
+  ... processed 10,000/13,545 cells
+  ... processed 11,000/13,545 cells
+  ... processed 12,000/13,545 cells
+  ... processed 13,000/13,545 cells
+
+  [primary] Market-level results
+  Cells eligible         : 13,545
+  Cells significant      : 49
+  Observed fraction      : 0.0036  (0.4%)
+  Binom threshold frac   : 0.0531  (5.3%)
+  Effect threshold       : 0.15  (15%)
+  Binom p-value          : 1.0000
+  Mean excess alt. rate  : -0.0207
+  RESULT: fail to reject null (p=1.0000)
+
+------------------------------------------------------------
+SECONDARY TEST — assumed-discretionary (ProcedureTypeId==11)
+CAVEAT: ID 11 = discretionary is a working assumption, not a verified fact.
+Results conditional on this classification being correct.
+
+[assumed-discretionary] Eligible cells: 12,499
+  ... processed 1,000/12,499 cells
+  ... processed 2,000/12,499 cells
+  ... processed 3,000/12,499 cells
+  ... processed 4,000/12,499 cells
+  ... processed 5,000/12,499 cells
+  ... processed 6,000/12,499 cells
+  ... processed 7,000/12,499 cells
+  ... processed 8,000/12,499 cells
+  ... processed 9,000/12,499 cells
+  ... processed 10,000/12,499 cells
+  ... processed 11,000/12,499 cells
+  ... processed 12,000/12,499 cells
+
+  [assumed-discretionary] Market-level results
+  Cells eligible         : 12,499
+  Cells significant      : 53
+  Observed fraction      : 0.0042  (0.4%)
+  Binom threshold frac   : 0.0532  (5.3%)
+  Effect threshold       : 0.15  (15%)
+  Binom p-value          : 1.0000
+  Mean excess alt. rate  : -0.0183
+  RESULT: fail to reject null (p=1.0000)
+
+------------------------------------------------------------
+SECONDARY TEST — assumed-competitive (ProcedureTypeId==1)
+CAVEAT: ID 1 = competitive is a working assumption, not a verified fact.
+
+[assumed-competitive] Eligible cells: 1,422
+  ... processed 1,000/1,422 cells
+
+  [assumed-competitive] Market-level results
+  Cells eligible         : 1,422
+  Cells significant      : 1
+  Observed fraction      : 0.0007  (0.1%)
+  Binom threshold frac   : 0.0598  (6.0%)
+  Effect threshold       : 0.15  (15%)
+  Binom p-value          : 1.0000
+  Mean excess alt. rate  : -0.0591
+  RESULT: fail to reject null (p=1.0000)
+
+------------------------------------------------------------
+SENSITIVITY CHECK — including IsUponFA=true (framework call-offs)
+Sensitivity subset: 378,833 rows (call-offs included)
+
+[sensitivity-with-calloffs] Eligible cells: 14,276
+  ... processed 1,000/14,276 cells
+  ... processed 2,000/14,276 cells
+  ... processed 3,000/14,276 cells
+  ... processed 4,000/14,276 cells
+  ... processed 5,000/14,276 cells
+  ... processed 6,000/14,276 cells
+  ... processed 7,000/14,276 cells
+  ... processed 8,000/14,276 cells
+  ... processed 9,000/14,276 cells
+  ... processed 10,000/14,276 cells
+  ... processed 11,000/14,276 cells
+  ... processed 12,000/14,276 cells
+  ... processed 13,000/14,276 cells
+  ... processed 14,000/14,276 cells
+
+  [sensitivity-with-calloffs] Market-level results
+  Cells eligible         : 14,276
+  Cells significant      : 59
+  Observed fraction      : 0.0041  (0.4%)
+  Binom threshold frac   : 0.0530  (5.3%)
+  Effect threshold       : 0.15  (15%)
+  Binom p-value          : 1.0000
+  Mean excess alt. rate  : -0.0232
+  RESULT: fail to reject null (p=1.0000)

@@ -1,0 +1,40 @@
+============================================================
+Hypothesis  : H6 — Contractor–contract sector alignment deviates from degree-sequence expectation: either specialisation dominates, or relationships override it
+Graph form  : bipartite multigraph
+Null model  : bipartite configuration model; CPV stays with contract edge in each null instance
+Constraint  : restrict to domestic contractors with ≥ 3 contracts; modal 2-digit CPV prefix (tie-break by TotalValue)
+------------------------------------------------------------
+Rows loaded      : 383,374
+Analysis subset  : 343,373
+Foreign excluded : 4,270 (1.1%)
+============================================================
+Computing primary CPV division per contractor …
+Eligible contractors (≥3 contracts): 19,201
+Eligible edges in analysis subset     : 313,144
+
+High-specialisation contractors (≥70% in modal CPV): 10,380
+
+Observed CPV match fraction — full eligible set : 0.6855
+Observed CPV match fraction — high-spec subset : 0.8981
+
+Running null ensemble — full eligible set (500 iterations) …
+Running null ensemble — high-spec subset (500 iterations) …
+
+=== Full eligible set (contractors with ≥ 3 contracts) ===
+  Null median     : 0.0574
+  Null 2.5th %    : 0.0566
+  Null 97.5th %   : 0.0582
+  Observed        : 0.6855
+  Excess          : +0.6280  (above null (specialisation))
+  p-value         : 0.0020  (two-tailed, n=500 iterations)
+  RESULT [full]: reject null — effect above threshold — above null (specialisation)
+
+=== Stability check — high-specialisation contractors (≥ 70% in modal CPV) ===
+  Null median     : 0.0864
+  Null 2.5th %    : 0.0850
+  Null 97.5th %   : 0.0878
+  Observed        : 0.8981
+  Excess          : +0.8117  (above null (specialisation))
+  p-value         : 0.0020  (two-tailed, n=500 iterations)
+  RESULT [high_spec]: reject null — effect above threshold — above null (specialisation)
+

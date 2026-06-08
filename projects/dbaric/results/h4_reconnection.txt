@@ -1,0 +1,112 @@
+============================================================
+Hypothesis  : H4 — Prior CA–contractor relationships independently predict future award allocation beyond market volume
+Graph form  : bipartite multigraph (annual subgraphs by ContractDate year)
+Null model  : Chung-Lu approximation p_ij = (d_i × d_j) / |E_2025| (bipartite normalisation)
+Constraint  : single 2024→2025 transition only; exclude re-publications (same ContractNo and ContractDate within 30 days)
+------------------------------------------------------------
+Rows loaded      : 383,374
+Analysis subset  : 343,373
+Foreign excluded : 4,270 (1.1%)
+============================================================
+
+============================================================
+AGGREGATE (IsUponFA=False)
+============================================================
+
+  2024 contracts : 145,967
+  2025 contracts (before re-pub exclusion) : 169,093
+  Re-publications excluded from 2025 subset: 5,723
+  2025 contracts (after re-pub exclusion)  : 163,370
+
+  Unique 2024 pairs              : 91,369
+  Eligible 2024 pairs (both nodes active in 2024 and 2025): 79,161
+
+  Eligible pairs entering Chung-Lu test : 79,161
+
+  Null (Chung-Lu bipartite, |E_2025|=163,370):
+    Expected reconnections : 4686.64
+    Expected rate          : 0.0592
+
+  Observed reconnections : 43,207
+  Observed rate          : 0.5458
+  Excess rate            : +0.4866
+
+  z-score  : 745.3290
+  p-value  : 0.0000  (one-tailed, z_threshold=1.645)
+  Result   : REJECT NULL — excess reconnection rate ≥ 10pp and z significant
+
+=== PER-CPV-SECTOR (≥5 domestic contractors in sector) ===
+  CPV    3 | eligible=   827 | obs_rate=0.727 | exp_rate=0.031 | excess=+0.696 | z=125.76 | p=0.0000 | reject
+  CPV    9 | eligible= 1,356 | obs_rate=0.771 | exp_rate=0.265 | excess=+0.505 | z=54.81 | p=0.0000 | reject
+  CPV   14 | eligible=   222 | obs_rate=0.856 | exp_rate=0.051 | excess=+0.805 | z=66.94 | p=0.0000 | reject
+  CPV   15 | eligible= 4,020 | obs_rate=0.702 | exp_rate=0.185 | excess=+0.517 | z=122.37 | p=0.0000 | reject
+  CPV   16 | eligible=   228 | obs_rate=0.583 | exp_rate=0.124 | excess=+0.459 | z=26.18 | p=0.0000 | reject
+  CPV   18 | eligible= 1,309 | obs_rate=0.652 | exp_rate=0.041 | excess=+0.611 | z=126.01 | p=0.0000 | reject
+  CPV   19 | eligible=   221 | obs_rate=0.769 | exp_rate=0.083 | excess=+0.687 | z=46.64 | p=0.0000 | reject
+  CPV   22 | eligible= 2,696 | obs_rate=0.668 | exp_rate=0.101 | excess=+0.567 | z=124.64 | p=0.0000 | reject
+  CPV   24 | eligible=   726 | obs_rate=0.736 | exp_rate=0.195 | excess=+0.540 | z=58.43 | p=0.0000 | reject
+  CPV   30 | eligible= 3,228 | obs_rate=0.581 | exp_rate=0.091 | excess=+0.490 | z=131.60 | p=0.0000 | reject
+  CPV   31 | eligible= 1,089 | obs_rate=0.604 | exp_rate=0.077 | excess=+0.527 | z=93.17 | p=0.0000 | reject
+  CPV   32 | eligible=   575 | obs_rate=0.541 | exp_rate=0.068 | excess=+0.473 | z=58.95 | p=0.0000 | reject
+  CPV   33 | eligible= 3,632 | obs_rate=0.664 | exp_rate=0.353 | excess=+0.311 | z=66.10 | p=0.0000 | reject
+  CPV   34 | eligible= 2,263 | obs_rate=0.502 | exp_rate=0.072 | excess=+0.430 | z=102.40 | p=0.0000 | reject
+  CPV   35 | eligible=   418 | obs_rate=0.574 | exp_rate=0.084 | excess=+0.490 | z=46.36 | p=0.0000 | reject
+  CPV   37 | eligible=   471 | obs_rate=0.535 | exp_rate=0.039 | excess=+0.496 | z=60.44 | p=0.0000 | reject
+  CPV   38 | eligible=   846 | obs_rate=0.459 | exp_rate=0.118 | excess=+0.341 | z=41.00 | p=0.0000 | reject
+  CPV   39 | eligible= 4,275 | obs_rate=0.495 | exp_rate=0.057 | excess=+0.438 | z=154.93 | p=0.0000 | reject
+  CPV   41 | eligible=    46 | obs_rate=0.891 | exp_rate=0.212 | excess=+0.679 | z=14.60 | p=0.0000 | reject
+  CPV   42 | eligible=   952 | obs_rate=0.472 | exp_rate=0.049 | excess=+0.422 | z=72.55 | p=0.0000 | reject
+  CPV   43 | eligible=   131 | obs_rate=0.649 | exp_rate=0.088 | excess=+0.561 | z=26.59 | p=0.0000 | reject
+  CPV   44 | eligible= 2,162 | obs_rate=0.586 | exp_rate=0.072 | excess=+0.514 | z=126.28 | p=0.0000 | reject
+  CPV   45 | eligible= 7,585 | obs_rate=0.541 | exp_rate=0.019 | excess=+0.521 | z=360.61 | p=0.0000 | reject
+  CPV   48 | eligible=   973 | obs_rate=0.649 | exp_rate=0.053 | excess=+0.595 | z=96.37 | p=0.0000 | reject
+  CPV   50 | eligible= 7,441 | obs_rate=0.646 | exp_rate=0.045 | excess=+0.601 | z=296.60 | p=0.0000 | reject
+  CPV   51 | eligible=    71 | obs_rate=0.873 | exp_rate=0.021 | excess=+0.852 | z=51.29 | p=0.0000 | reject
+  CPV   55 | eligible= 1,550 | obs_rate=0.588 | exp_rate=0.055 | excess=+0.533 | z=104.59 | p=0.0000 | reject
+  CPV   60 | eligible=   770 | obs_rate=0.726 | exp_rate=0.040 | excess=+0.686 | z=111.19 | p=0.0000 | reject
+  CPV   63 | eligible=   249 | obs_rate=0.711 | exp_rate=0.113 | excess=+0.598 | z=43.03 | p=0.0000 | reject
+  CPV   64 | eligible=   884 | obs_rate=0.818 | exp_rate=0.387 | excess=+0.431 | z=34.43 | p=0.0000 | reject
+  CPV   65 | eligible=   140 | obs_rate=0.921 | exp_rate=0.077 | excess=+0.845 | z=53.81 | p=0.0000 | reject
+  CPV   66 | eligible=   981 | obs_rate=0.765 | exp_rate=0.292 | excess=+0.473 | z=43.83 | p=0.0000 | reject
+  CPV   70 | eligible=   100 | obs_rate=0.900 | exp_rate=0.025 | excess=+0.875 | z=60.00 | p=0.0000 | reject
+  CPV   71 | eligible= 6,664 | obs_rate=0.485 | exp_rate=0.044 | excess=+0.440 | z=214.49 | p=0.0000 | reject
+  CPV   72 | eligible= 3,149 | obs_rate=0.713 | exp_rate=0.053 | excess=+0.659 | z=192.29 | p=0.0000 | reject
+  CPV   73 | eligible=   128 | obs_rate=0.641 | exp_rate=0.056 | excess=+0.584 | z=32.50 | p=0.0000 | reject
+  CPV   75 | eligible=    69 | obs_rate=0.942 | exp_rate=0.033 | excess=+0.909 | z=46.80 | p=0.0000 | reject
+  CPV   76 | eligible=    18 | obs_rate=0.944 | exp_rate=0.067 | excess=+0.877 | z=15.63 | p=0.0000 | reject
+  CPV   77 | eligible=   344 | obs_rate=0.762 | exp_rate=0.022 | excess=+0.739 | z=99.63 | p=0.0000 | reject
+  CPV   79 | eligible= 5,036 | obs_rate=0.629 | exp_rate=0.026 | excess=+0.603 | z=307.12 | p=0.0000 | reject
+  CPV   80 | eligible= 1,051 | obs_rate=0.528 | exp_rate=0.103 | excess=+0.425 | z=55.50 | p=0.0000 | reject
+  CPV   85 | eligible=   829 | obs_rate=0.685 | exp_rate=0.040 | excess=+0.645 | z=109.11 | p=0.0000 | reject
+  CPV   90 | eligible= 2,001 | obs_rate=0.701 | exp_rate=0.034 | excess=+0.666 | z=184.89 | p=0.0000 | reject
+  CPV   92 | eligible=   531 | obs_rate=0.685 | exp_rate=0.022 | excess=+0.663 | z=110.28 | p=0.0000 | reject
+  CPV   98 | eligible=   694 | obs_rate=0.833 | exp_rate=0.014 | excess=+0.818 | z=186.65 | p=0.0000 | reject
+
+=== SENSITIVITY CHECK (IsUponFA=True included) ===
+(sensitivity subset rows: 378,833)
+
+============================================================
+AGGREGATE (incl. call-offs)
+============================================================
+
+  2024 contracts : 151,410
+  2025 contracts (before re-pub exclusion) : 193,641
+  Re-publications excluded from 2025 subset: 5,799
+  2025 contracts (after re-pub exclusion)  : 187,842
+
+  Unique 2024 pairs              : 93,920
+  Eligible 2024 pairs (both nodes active in 2024 and 2025): 81,944
+
+  Eligible pairs entering Chung-Lu test : 81,944
+
+  Null (Chung-Lu bipartite, |E_2025|=187,842):
+    Expected reconnections : 6130.04
+    Expected rate          : 0.0748
+
+  Observed reconnections : 44,947
+  Observed rate          : 0.5485
+  Excess rate            : +0.4737
+
+  z-score  : 716.6430
+  p-value  : 0.0000  (one-tailed, z_threshold=1.645)
+  Result   : REJECT NULL — excess reconnection rate ≥ 10pp and z significant

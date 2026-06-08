@@ -1,0 +1,95 @@
+============================================================
+Hypothesis  : H3 — Contract formation surges at fiscal year-end at rates consistent with budget-pressure spending, not procurement need
+Graph form  : bipartite multigraph (new vs repeat edge classification by ContractDate)
+Null model  : stationary Poisson process (expected quarterly count = annual_total / 4); secondary: funding-type label permutation
+Constraint  : only two complete fiscal years (2024, 2025); both must independently confirm
+------------------------------------------------------------
+Rows loaded      : 383,374
+Analysis subset  : 347,471
+Foreign excluded : 4,270 (1.1%)
+============================================================
+
+Classifying edges as new/repeat globally across full dataset …
+  New edges    : 158,547
+  Repeat edges : 188,924
+
+Constraint: both 2024 and 2025 must independently exceed the effect threshold (ratio > 1.5 and p < 0.05) for H3 to be supported.
+
+============================================================
+FISCAL YEAR 2024
+============================================================
+
+Quarterly contract counts (all / new / repeat):
+  Q         All      New   Repeat   Value (M€)
+  1      50,225   38,263   11,962       578.44
+  2      32,882   20,773   12,109      1116.04
+  3      28,668   15,789   12,879      1880.41
+  4      35,800   17,741   18,059      2441.28
+
+  Annual new edges  : 92,566
+  Annual all edges  : 147,575
+
+Primary test — Poisson spike (new edges):
+  Null: Poisson(μ=23141.5) per quarter (annual/4)
+  Q4 new-edge count   : 17,741
+  Q4-to-quarterly-mean ratio : 0.767
+  p-value (one-tailed)       : 1.0000
+  Result : FAIL TO REJECT NULL
+
+Q4 value spike (all edges):
+  Q4 total value          : 2441.28 M€
+  Quarterly mean value    : 1504.04 M€
+  Q4-to-quarterly ratio   : 1.623
+
+Edge-type dominance in Q4:
+  Q4 new edges    : 17,741 (49.6%)
+  Q4 repeat edges : 18,059 (50.4%)
+  Dominance : REPEAT edges dominate Q4 spike — consistent with risk-aversion / budget-pressure
+
+Secondary test — funding-type label permutation (n=500):
+  Observed Δ(Q4 ratio: domestic − EU) : -0.3722
+  Null median Δ                       : -0.0004
+  Null 2.5th–97.5th pct               : [-0.0460, +0.0484]
+  p-value (two-tailed)                : 0.0000
+  Result : REJECT NULL — domestic and EU-funded Q4 ratios differ significantly
+
+============================================================
+FISCAL YEAR 2025
+============================================================
+
+Quarterly contract counts (all / new / repeat):
+  Q         All      New   Repeat   Value (M€)
+  1      60,444   20,974   39,470      1916.27
+  2      39,796   14,128   25,668      2134.17
+  3      31,861   11,100   20,761      2027.30
+  4      39,158   12,541   26,617      1861.36
+
+  Annual new edges  : 58,743
+  Annual all edges  : 171,259
+
+Primary test — Poisson spike (new edges):
+  Null: Poisson(μ=14685.8) per quarter (annual/4)
+  Q4 new-edge count   : 12,541
+  Q4-to-quarterly-mean ratio : 0.854
+  p-value (one-tailed)       : 1.0000
+  Result : FAIL TO REJECT NULL
+
+Q4 value spike (all edges):
+  Q4 total value          : 1861.36 M€
+  Quarterly mean value    : 1984.77 M€
+  Q4-to-quarterly ratio   : 0.938
+
+Edge-type dominance in Q4:
+  Q4 new edges    : 12,541 (32.0%)
+  Q4 repeat edges : 26,617 (68.0%)
+  Dominance : REPEAT edges dominate Q4 spike — consistent with risk-aversion / budget-pressure
+
+Secondary test — funding-type label permutation (n=500):
+  Observed Δ(Q4 ratio: domestic − EU) : -0.0792
+  Null median Δ                       : +0.0014
+  Null 2.5th–97.5th pct               : [-0.0403, +0.0408]
+  p-value (two-tailed)                : 0.0000
+  Result : REJECT NULL — domestic and EU-funded Q4 ratios differ significantly
+
+=== COMBINED VERDICT ===
+H3 is supported only if BOTH years individually reject the null AND ratio > 1.5. See per-year results above.
