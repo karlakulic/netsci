@@ -1,0 +1,5 @@
+company,product,process_node_nm,capacity_share_pct,source_url,source_date
+Infineon,GaN power device,,,https://www.infineon.com/products/power/gallium-nitride,2026-06-07
+STMicroelectronics,GaN power device,,,https://www.st.com/en/power-management/gallium-nitride-gan-power-ics.html,2026-06-07
+Infineon,NOR flash,,,https://www.infineon.com/products/memories/nor-flash,2026-06-07
+Microchip,NOR flash,,,https://www.microchip.com/en-us/products/memory/serial-and-parallel-flash,2026-06-07

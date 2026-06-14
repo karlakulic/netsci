@@ -1,0 +1,14 @@
+source,target,dependency_type,source_url,source_date
+DUV lithography system,Neon gas,consumable,https://www.reuters.com/technology/exclusive-ukraine-halts-half-worlds-neon-output-chips-clouding-outlook-2022-03-11/,2026-06-07
+EUV lithography system,Helium,consumable,https://www.usgs.gov/centers/national-minerals-information-center/helium-statistics-and-information,2026-06-07
+EUV lithography system,EUV pellicle,component,https://jp.mitsuichemicals.com/en/release/2020/2020_0707.htm,2026-06-07
+Etch system,Hexafluorobutadiene (C4F6),consumable,https://www.linde-gas.com/en/products_and_supply/electronic_gases/index.html,2026-06-07
+CVD deposition system,Tungsten hexafluoride (WF6),consumable,https://www.kantodenka.co.jp/english/products/,2026-06-07
+Wafer cleaning system,Hydrogen fluoride (HF),consumable,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-07
+Wet process chemicals,Hydrogen fluoride (HF),feedstock,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-07
+ArF photoresist,Photoresist polymer resin,feedstock,https://www.sumitomo-chem.co.jp/english/products/,2026-06-07
+EUV photoresist,Photoresist polymer resin,feedstock,https://www.sumitomo-chem.co.jp/english/products/,2026-06-07
+CMP slurry,Rare earth elements,feedstock,https://www.reuters.com/markets/commodities/china-restricts-rare-earth-exports-2023-2024/,2026-06-07
+300mm silicon wafer,Synthetic quartz,tooling,https://www.shinetsu.co.jp/en/products/quartz/,2026-06-07
+EUV mask blank,Synthetic quartz,substrate,https://www.shinetsu.co.jp/en/products/quartz/,2026-06-07
+PVD deposition system,Sputtering targets,consumable,https://www.jx-nmm.com/english/business/quality_material/,2026-06-07

@@ -1,0 +1,33 @@
+source,target,dependency_type
+2nm logic wafer,EUV lithography system,process
+3nm logic wafer,EUV lithography system,process
+5nm logic wafer,EUV lithography system,process
+7nm logic wafer,EUV lithography system,process
+16nm logic wafer,DUV lithography system,process
+28nm logic wafer,DUV lithography system,process
+EUV lithography system,EUV optics module,component
+EUV lithography system,EUV mask blank,consumable
+EUV lithography system,EUV photoresist,consumable
+EUV lithography system,Specialty gases,consumable
+Photomask,EUV mask blank,substrate
+2nm logic wafer,300mm silicon wafer,substrate
+3nm logic wafer,300mm silicon wafer,substrate
+5nm logic wafer,300mm silicon wafer,substrate
+7nm logic wafer,300mm silicon wafer,substrate
+3nm logic wafer,EUV photoresist,material
+5nm logic wafer,EUV photoresist,material
+28nm logic wafer,ArF photoresist,material
+3nm logic wafer,Photomask,tooling
+3nm logic wafer,Specialty gases,material
+3nm logic wafer,CMP slurry,material
+3nm logic wafer,EDA software,design
+3nm logic wafer,CPU IP core,design
+HBM,DRAM,composition
+HBM,Advanced packaging (2.5D/3D),integration
+Advanced packaging (2.5D/3D),IC substrate,substrate
+IC substrate,ABF build-up film,material
+Flip-chip package,IC substrate,substrate
+SiC power device,SiC substrate,substrate
+CPU IP core,EDA software,design
+DDR5 DRAM,DRAM,generation
+3D NAND,NAND flash,generation

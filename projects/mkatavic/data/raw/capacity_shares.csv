@@ -1,0 +1,10 @@
+company,product,capacity_share_pct,source_url,source_date
+SK Hynix,HBM,54,https://eureka.patsnap.com/insight/the-hbm-wars-sk-hynixs-dominance-samsungs-roadmap-and-the-looming-threat-of-cyclicality,2026-06-07
+Samsung Memory,HBM,39,https://eureka.patsnap.com/insight/the-hbm-wars-sk-hynixs-dominance-samsungs-roadmap-and-the-looming-threat-of-cyclicality,2026-06-07
+Micron,HBM,7,https://eureka.patsnap.com/insight/the-hbm-wars-sk-hynixs-dominance-samsungs-roadmap-and-the-looming-threat-of-cyclicality,2026-06-07
+Samsung Memory,DRAM,41,https://wccftech.com/global-dram-industry-revenue-grows-by-13-6-quarter-over-quarter-samsung-still-leads-with-around-41-market-share/,2026-06-07
+SK Hynix,DRAM,34,https://wccftech.com/global-dram-industry-revenue-grows-by-13-6-quarter-over-quarter-samsung-still-leads-with-around-41-market-share/,2026-06-07
+Micron,DRAM,22,https://wccftech.com/global-dram-industry-revenue-grows-by-13-6-quarter-over-quarter-samsung-still-leads-with-around-41-market-share/,2026-06-07
+Synopsys,EDA software,31,https://semiengineering.com/the-state-of-the-eda-industry-in-2024/,2026-06-07
+Cadence,EDA software,30,https://semiengineering.com/the-state-of-the-eda-industry-in-2024/,2026-06-07
+Siemens EDA,EDA software,13,https://semiengineering.com/the-state-of-the-eda-industry-in-2024/,2026-06-07

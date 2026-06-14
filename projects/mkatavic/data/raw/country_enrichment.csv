@@ -1,0 +1,14 @@
+name,iso2,gdp_usd,gdp_year,gdp_source_url,political_risk_score,political_risk_year,political_risk_source_url,source_date
+Netherlands,NL,1214927698573,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,0.4281,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+United States,US,28750956130731,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,-0.0951,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+Japan,JP,4027597523551,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,1.1343,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+Germany,DE,4685592577805,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,0.1243,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+Taiwan,TW,801495000000,2024,https://www.imf.org/external/datamapper/NGDPD@WEO/TWN,0.9167,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+China,CN,18743803170827,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,-0.1533,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+South Korea,KR,1875388209407,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,0.6393,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+United Kingdom,GB,3686033044482,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,0.2577,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+France,FR,3160442622465,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,-0.2414,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+Switzerland,CH,936564198049,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,0.9807,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+Israel,IL,540379921262,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,-1.0375,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+Singapore,SG,547386645892,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,1.2319,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07
+Austria,AT,534790720467,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,0.4916,2024,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07

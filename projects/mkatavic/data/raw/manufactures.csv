@@ -1,0 +1,168 @@
+company,product,process_node_nm,capacity_share_pct,source_url,source_date
+TSMC,2nm logic wafer,2,90,https://investor.tsmc.com/english/annual-reports,2026-06-06
+TSMC,3nm logic wafer,3,90,https://investor.tsmc.com/english/annual-reports,2026-06-06
+TSMC,5nm logic wafer,5,80,https://investor.tsmc.com/english/annual-reports,2026-06-06
+TSMC,7nm logic wafer,7,65,https://investor.tsmc.com/english/annual-reports,2026-06-06
+TSMC,16nm logic wafer,16,50,https://investor.tsmc.com/english/annual-reports,2026-06-06
+TSMC,28nm logic wafer,28,30,https://investor.tsmc.com/english/annual-reports,2026-06-06
+TSMC,Advanced packaging (2.5D/3D),,60,https://investor.tsmc.com/english/annual-reports,2026-06-06
+Samsung Foundry,3nm logic wafer,3,10,https://www.trendforce.com/presscenter/news/,2026-06-06
+Samsung Foundry,5nm logic wafer,5,15,https://www.trendforce.com/presscenter/news/,2026-06-06
+Samsung Foundry,7nm logic wafer,7,10,https://www.trendforce.com/presscenter/news/,2026-06-06
+Samsung Foundry,28nm logic wafer,28,10,https://www.trendforce.com/presscenter/news/,2026-06-06
+Intel,7nm logic wafer,7,12,https://www.intel.com/content/www/us/en/foundry/overview.html,2026-06-06
+Intel,Advanced packaging (2.5D/3D),,15,https://www.intel.com/content/www/us/en/foundry/overview.html,2026-06-06
+GlobalFoundries,16nm logic wafer,16,8,https://www.trendforce.com/presscenter/news/,2026-06-06
+GlobalFoundries,28nm logic wafer,28,18,https://www.trendforce.com/presscenter/news/,2026-06-06
+GlobalFoundries,65nm logic wafer,65,12,https://www.trendforce.com/presscenter/news/,2026-06-06
+UMC,28nm logic wafer,28,16,https://www.trendforce.com/presscenter/news/,2026-06-06
+UMC,65nm logic wafer,65,18,https://www.trendforce.com/presscenter/news/,2026-06-06
+UMC,90nm logic wafer,90,15,https://www.trendforce.com/presscenter/news/,2026-06-06
+SMIC,16nm logic wafer,16,6,https://www.trendforce.com/presscenter/news/,2026-06-06
+SMIC,28nm logic wafer,28,14,https://www.trendforce.com/presscenter/news/,2026-06-06
+Hua Hong Semiconductor,90nm logic wafer,90,8,https://www.trendforce.com/presscenter/news/,2026-06-06
+Powerchip (PSMC),65nm logic wafer,65,6,https://www.trendforce.com/presscenter/news/,2026-06-06
+Vanguard (VIS),90nm logic wafer,90,6,https://www.trendforce.com/presscenter/news/,2026-06-06
+Nexchip,28nm logic wafer,28,5,https://www.trendforce.com/presscenter/news/,2026-06-06
+Tower Semiconductor,90nm logic wafer,90,5,https://www.trendforce.com/presscenter/news/,2026-06-06
+ASML,EUV lithography system,,100,https://www.asml.com/en/investors/annual-report/2024,2026-06-06
+ASML,DUV lithography system,,80,https://www.asml.com/en/investors/annual-report/2024,2026-06-06
+Nikon,DUV lithography system,,12,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Canon,DUV lithography system,,8,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Canon,Nanoimprint lithography system,,8,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Applied Materials,CVD deposition system,,,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Applied Materials,PVD deposition system,,,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Applied Materials,Ion implanter,,,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Applied Materials,CMP system,,,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Applied Materials,Etch system,,,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Lam Research,Etch system,,45,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Lam Research,ALD deposition system,,45,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Lam Research,Wafer cleaning system,,45,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Tokyo Electron,Etch system,,25,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Tokyo Electron,CVD deposition system,,25,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Tokyo Electron,Wafer cleaning system,,25,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+KLA,Metrology & inspection system,,55,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Onto Innovation,Metrology & inspection system,,,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+ASM International,ALD deposition system,,55,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Screen Holdings,Wafer cleaning system,,45,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Hitachi High-Tech,Etch system,,,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Hitachi High-Tech,Metrology & inspection system,,,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Lasertec,EUV mask inspection system,,100,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Advantest,Automated test equipment,,55,https://www.advantest.com/products/,2026-06-06
+Teradyne,Automated test equipment,,40,https://www.advantest.com/products/,2026-06-06
+Disco Corporation,Dicing saw,,70,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Kulicke & Soffa,Wire bonder,,60,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06
+Carl Zeiss SMT,EUV optics module,,100,https://www.asml.com/en/technology/lithography-principles/zeiss-optics,2026-06-06
+Shin-Etsu Chemical,300mm silicon wafer,,30,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+Shin-Etsu Chemical,200mm silicon wafer,,30,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+SUMCO,300mm silicon wafer,,25,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+SUMCO,200mm silicon wafer,,25,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+GlobalWafers,300mm silicon wafer,,15,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+GlobalWafers,200mm silicon wafer,,15,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+Siltronic,300mm silicon wafer,,12,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+SK Siltron,300mm silicon wafer,,10,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+SK Siltron,SiC substrate,,10,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06
+Soitec,SOI wafer,,70,https://www.soitec.com/en/products,2026-06-06
+Wolfspeed,SiC substrate,,50,https://www.wsts.org/,2026-06-06
+Wolfspeed,SiC power device,,50,https://www.wsts.org/,2026-06-06
+Tokyo Ohka Kogyo,ArF photoresist,,25,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Tokyo Ohka Kogyo,EUV photoresist,,25,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+JSR Corporation,ArF photoresist,,22,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+JSR Corporation,EUV photoresist,,22,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Shin-Etsu Chemical,ArF photoresist,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Shin-Etsu Chemical,EUV photoresist,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Fujifilm,ArF photoresist,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Fujifilm,Wet process chemicals,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Merck KGaA,EUV photoresist,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Merck KGaA,Wet process chemicals,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+DuPont,CMP slurry,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+DuPont,ArF photoresist,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Sumitomo Chemical,ArF photoresist,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Sumitomo Chemical,Wet process chemicals,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Resonac,CMP slurry,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Resonac,Wet process chemicals,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Dongjin Semichem,ArF photoresist,,,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Entegris,CMP slurry,,30,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Entegris,Wet process chemicals,,30,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06
+Air Liquide,Specialty gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Air Liquide,Bulk gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Linde,Specialty gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Linde,Bulk gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Air Products,Specialty gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Air Products,Bulk gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Taiyo Nippon Sanso,Specialty gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Taiyo Nippon Sanso,Bulk gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Messer,Specialty gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Messer,Bulk gases,,,https://www.airliquide.com/group/activities/electronics,2026-06-06
+Photronics,Photomask,,40,https://www.photronics.com/products/,2026-06-06
+Toppan Photomask,Photomask,,,https://www.photronics.com/products/,2026-06-06
+Hoya,EUV mask blank,,70,https://www.photronics.com/products/,2026-06-06
+Hoya,Photomask,,70,https://www.photronics.com/products/,2026-06-06
+Ajinomoto,ABF build-up film,,100,https://www.ajinomoto.com/ir/event/pdf/2021/ABF_briefing.pdf,2026-06-06
+Unimicron,IC substrate,,,https://www.unimicron.com/en/products/,2026-06-06
+Unimicron,Flip-chip package,,,https://www.unimicron.com/en/products/,2026-06-06
+Ibiden,IC substrate,,,https://www.unimicron.com/en/products/,2026-06-06
+Ibiden,Flip-chip package,,,https://www.unimicron.com/en/products/,2026-06-06
+Shinko Electric Industries,IC substrate,,,https://www.unimicron.com/en/products/,2026-06-06
+Shinko Electric Industries,Flip-chip package,,,https://www.unimicron.com/en/products/,2026-06-06
+AT&S,IC substrate,,,https://www.unimicron.com/en/products/,2026-06-06
+AT&S,Flip-chip package,,,https://www.unimicron.com/en/products/,2026-06-06
+Nan Ya PCB,IC substrate,,,https://www.unimicron.com/en/products/,2026-06-06
+Nan Ya PCB,Flip-chip package,,,https://www.unimicron.com/en/products/,2026-06-06
+Samsung Memory,DRAM,,40,https://www.wsts.org/,2026-06-06
+Samsung Memory,DDR5 DRAM,,40,https://www.wsts.org/,2026-06-06
+Samsung Memory,NAND flash,,40,https://www.wsts.org/,2026-06-06
+Samsung Memory,3D NAND,,40,https://www.wsts.org/,2026-06-06
+Samsung Memory,HBM,,40,https://www.wsts.org/,2026-06-06
+SK Hynix,DRAM,,35,https://www.reuters.com/technology/sk-hynix-says-2025-hbm-chips-sold-out-2024-05-02/,2026-06-06
+SK Hynix,DDR5 DRAM,,35,https://www.reuters.com/technology/sk-hynix-says-2025-hbm-chips-sold-out-2024-05-02/,2026-06-06
+SK Hynix,NAND flash,,35,https://www.reuters.com/technology/sk-hynix-says-2025-hbm-chips-sold-out-2024-05-02/,2026-06-06
+SK Hynix,HBM,,35,https://www.reuters.com/technology/sk-hynix-says-2025-hbm-chips-sold-out-2024-05-02/,2026-06-06
+Micron,DRAM,,25,https://www.wsts.org/,2026-06-06
+Micron,NAND flash,,25,https://www.wsts.org/,2026-06-06
+Micron,HBM,,25,https://www.wsts.org/,2026-06-06
+Kioxia,NAND flash,,20,https://www.wsts.org/,2026-06-06
+Kioxia,3D NAND,,20,https://www.wsts.org/,2026-06-06
+Western Digital,NAND flash,,15,https://www.wsts.org/,2026-06-06
+Western Digital,3D NAND,,15,https://www.wsts.org/,2026-06-06
+Nanya Technology,DRAM,,3,https://www.wsts.org/,2026-06-06
+Infineon,Power semiconductor,,20,https://www.wsts.org/,2026-06-06
+Infineon,SiC power device,,20,https://www.wsts.org/,2026-06-06
+Infineon,Microcontroller (MCU),,20,https://www.wsts.org/,2026-06-06
+STMicroelectronics,Microcontroller (MCU),,,https://www.wsts.org/,2026-06-06
+STMicroelectronics,SiC power device,,,https://www.wsts.org/,2026-06-06
+STMicroelectronics,Power semiconductor,,,https://www.wsts.org/,2026-06-06
+NXP,Microcontroller (MCU),,,https://www.wsts.org/,2026-06-06
+NXP,RF front-end module,,,https://www.wsts.org/,2026-06-06
+Texas Instruments,Analog IC,,18,https://www.wsts.org/,2026-06-06
+Texas Instruments,Microcontroller (MCU),,18,https://www.wsts.org/,2026-06-06
+Analog Devices,Analog IC,,12,https://www.wsts.org/,2026-06-06
+Microchip,Microcontroller (MCU),,,https://www.wsts.org/,2026-06-06
+Microchip,Analog IC,,,https://www.wsts.org/,2026-06-06
+onsemi,Power semiconductor,,,https://www.wsts.org/,2026-06-06
+onsemi,SiC power device,,,https://www.wsts.org/,2026-06-06
+onsemi,CMOS image sensor,,,https://www.wsts.org/,2026-06-06
+Renesas,Microcontroller (MCU),,,https://www.wsts.org/,2026-06-06
+Renesas,Analog IC,,,https://www.wsts.org/,2026-06-06
+Rohm,Power semiconductor,,,https://www.wsts.org/,2026-06-06
+Rohm,SiC power device,,,https://www.wsts.org/,2026-06-06
+Qualcomm,RF front-end module,,,https://www.wsts.org/,2026-06-06
+Synopsys,EDA software,,32,https://www.semi.org/en/communities/esd-alliance,2026-06-06
+Synopsys,CPU IP core,,32,https://www.semi.org/en/communities/esd-alliance,2026-06-06
+Synopsys,DSP IP core,,32,https://www.semi.org/en/communities/esd-alliance,2026-06-06
+Cadence,EDA software,,30,https://www.semi.org/en/communities/esd-alliance,2026-06-06
+Cadence,DSP IP core,,30,https://www.semi.org/en/communities/esd-alliance,2026-06-06
+Siemens EDA,EDA software,,28,https://www.semi.org/en/communities/esd-alliance,2026-06-06
+ARM,CPU IP core,,45,https://www.arm.com/company,2026-06-06
+ARM,GPU IP core,,45,https://www.arm.com/company,2026-06-06
+Imagination Technologies,GPU IP core,,,https://www.arm.com/company,2026-06-06
+SiFive,RISC-V IP core,,,https://www.arm.com/company,2026-06-06
+Ceva,DSP IP core,,,https://www.arm.com/company,2026-06-06
+ASE Group,Advanced packaging (2.5D/3D),,30,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06
+ASE Group,Flip-chip package,,30,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06
+Amkor,Advanced packaging (2.5D/3D),,15,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06
+Amkor,Flip-chip package,,15,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06
+JCET,Flip-chip package,,,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06
+Powertech Technology,Flip-chip package,,,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06
+Tongfu Microelectronics,Flip-chip package,,,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06
+UTAC,Flip-chip package,,,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06
