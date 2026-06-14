@@ -1,0 +1,10 @@
+node_count: 10334
+edge_count: 100836
+density: 0.0018886466760981626
+connected_components: 1
+average_clustering: 0.0
+user_count: 610
+movie_count: 9724
+largest_component_size: 10334
+largest_component_fraction: 1.0
+top_degree: [('user_414', 2698), ('user_599', 2478), ('user_474', 2108), ('user_448', 1864), ('user_274', 1346)]
