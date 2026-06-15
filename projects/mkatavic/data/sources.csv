@@ -1,0 +1,169 @@
+source_id,url,date_accessed,covers,notes
+abf_market,https://www.ajinomoto.com/ir/event/pdf/2021/ABF_briefing.pdf,2026-06-06,Ajinomoto Build-up Film (ABF) — near-monopoly substrate material,
+airproducts_elec,https://www.airproducts.com/industries/electronics,2026-06-06,Air Products — electronics specialty & bulk gases to fabs,
+arm_partners,https://www.arm.com/partners,2026-06-06,Arm IP licensees / ecosystem partners,
+asml_ar2024,https://www.asml.com/en/investors/annual-report/2024,2026-06-06,"ASML 2024 Annual Report — customers, EUV/DUV shipments",
+asml_hq,https://www.asml.com/en/company/about-asml/locations,2026-06-07,"ASML HQ / manufacturing (Veldhoven, Netherlands)",enrichment (Priority 2/3)
+asml_zeiss,https://www.asml.com/en/technology/lithography-principles/zeiss-optics,2026-06-06,ASML–Carl Zeiss SMT exclusive EUV optics partnership,
+ate_market,https://www.advantest.com/products/,2026-06-06,"Automated test equipment (ATE) — Advantest, Teradyne",
+dram_share_2024,https://wccftech.com/global-dram-industry-revenue-grows-by-13-6-quarter-over-quarter-samsung-still-leads-with-around-41-market-share/,2026-06-07,"DRAM market share 2024 (Samsung ~41%, SK Hynix ~34%, Micron ~22%)",enrichment (Priority 2/3)
+eda_market,https://www.semi.org/en/communities/esd-alliance,2026-06-06,"EDA market — Synopsys, Cadence, Siemens EDA (~3-firm oligopoly)",
+eda_share_2024,https://semiengineering.com/the-state-of-the-eda-industry-in-2024/,2026-06-07,"EDA market share 2024 (Synopsys 31%, Cadence 30%, Siemens 13%)",enrichment (Priority 2/3)
+entegris,https://www.entegris.com/en/home/products.html,2026-06-06,"Entegris — CMP slurries, filtration, advanced materials",
+esmc,https://esmc.com/,2026-06-07,ESMC (TSMC-led JV) Dresden fab announcement,enrichment (Priority 2/3)
+etch_gas,https://www.linde-gas.com/en/products_and_supply/electronic_gases/index.html,2026-06-07,Fluorinated etch gases incl. C4F6 (hexafluorobutadiene),enrichment (Priority 2/3)
+foundry_share,https://www.trendforce.com/presscenter/news/,2026-06-06,TrendForce foundry revenue ranking & market share by quarter,
+gas_market,https://www.airliquide.com/group/activities/electronics,2026-06-06,Electronics specialty & bulk gases to fabs (Air Liquide/Linde/Air Products/TNSC/Messer),
+gf_fab,https://gf.com/about-us/manufacturing/,2026-06-07,"GlobalFoundries manufacturing sites (Fab 8 Malta, NY)",enrichment (Priority 2/3)
+hbm_nvidia,https://www.reuters.com/technology/sk-hynix-says-2025-hbm-chips-sold-out-2024-05-02/,2026-06-06,HBM memory supply (SK Hynix/Samsung/Micron) to Nvidia AI GPUs,
+hbm_share_2024,https://eureka.patsnap.com/insight/the-hbm-wars-sk-hynixs-dominance-samsungs-roadmap-and-the-looming-threat-of-cyclicality,2026-06-07,"HBM market share 2024 (SK Hynix 54%, Samsung 39%, Micron 7%)",enrichment (Priority 2/3)
+helium_market,https://www.usgs.gov/centers/national-minerals-information-center/helium-statistics-and-information,2026-06-07,Helium supply (USGS) — EUV/process cooling & purge,enrichment (Priority 2/3)
+hf_dispute,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-07,High-purity hydrogen fluoride — Japan's ~70-90% etch/clean share,enrichment (Priority 2/3)
+imf_weo_gdp,https://www.imf.org/external/datamapper/NGDPD@WEO/TWN,2026-06-07,IMF World Economic Outlook GDP (current US$) — used for Taiwan,enrichment (Priority 2/3)
+infineon_fab,https://www.infineon.com/cms/en/about-infineon/company/manufacturing/,2026-06-07,"Infineon front-end manufacturing (Dresden, Villach)",enrichment (Priority 2/3)
+infineon_gan,https://www.infineon.com/products/power/gallium-nitride,2026-06-07,Infineon CoolGaN gallium-nitride power devices,enrichment (Priority 2/3)
+infineon_nor,https://www.infineon.com/products/memories/nor-flash,2026-06-07,Infineon SEMPER NOR flash memory,enrichment (Priority 2/3)
+intel_fab,https://www.intel.com/content/www/us/en/architecture-and-technology/arizona-fabs.html,2026-06-07,"Intel manufacturing sites (Arizona Ocotillo, New Mexico)",enrichment (Priority 2/3)
+intel_foundry,https://www.intel.com/content/www/us/en/foundry/overview.html,2026-06-06,Intel Foundry — process nodes and offerings,
+ip_market,https://www.arm.com/company,2026-06-06,"Semiconductor IP market — Arm, Synopsys, Cadence, Imagination, SiFive, Ceva",
+kioxia_fab,https://www.kioxia.com/en-jp/about/fab.html,2026-06-07,Kioxia/Western Digital Yokkaichi & Kitakami NAND fabs,enrichment (Priority 2/3)
+marketcap,https://companiesmarketcap.com/semiconductors/largest-semiconductor-companies-by-market-cap/,2026-06-06,Market capitalisation of semiconductor companies (approx.),Reference for market_cap_usd column
+merck_elec,https://www.emdgroup.com/en/products/semiconductor-solutions.html,2026-06-06,Merck KGaA (EMD Electronics) — photoresist & specialty chemicals,
+microchip_nor,https://www.microchip.com/en-us/products/memory/serial-and-parallel-flash,2026-06-07,Microchip SuperFlash (SST) serial/parallel NOR flash,enrichment (Priority 2/3)
+micron_fab,https://www.micron.com/about/our-commitment/operating-thoughtfully/global-locations,2026-06-07,"Micron global fab locations (Hiroshima, Boise)",enrichment (Priority 2/3)
+neon_market,https://www.reuters.com/technology/exclusive-ukraine-halts-half-worlds-neon-output-chips-clouding-outlook-2022-03-11/,2026-06-07,Neon gas for DUV excimer lasers — Ukraine ~half of world output,enrichment (Priority 2/3)
+osat_market,https://www.yolegroup.com/product/report/status-of-the-advanced-packaging-industry/,2026-06-06,"OSAT / advanced-packaging market (ASE, Amkor, JCET, PTI, Tongfu, ...)",
+pellicle_market,https://jp.mitsuichemicals.com/en/release/2020/2020_0707.htm,2026-06-07,"EUV pellicle — Mitsui Chemicals / ASML, protects EUV photomask",enrichment (Priority 2/3)
+photomask_market,https://www.photronics.com/products/,2026-06-06,"Photomask market — Photronics, Toppan, Hoya (mask blanks)",
+quartz_market,https://www.shinetsu.co.jp/en/products/quartz/,2026-06-07,"Synthetic quartz — crucibles for crystal growth, EUV mask substrate",enrichment (Priority 2/3)
+rare_earth_controls,https://www.reuters.com/markets/commodities/china-restricts-rare-earth-exports-2023-2024/,2026-06-07,Rare-earth elements — China export controls; CMP/polishing & magnets,enrichment (Priority 2/3)
+resin_market,https://www.sumitomo-chem.co.jp/english/products/,2026-06-07,Photoresist polymer resins & specialty monomers,enrichment (Priority 2/3)
+resist_market,https://www.reuters.com/article/us-japan-southkorea-laborers-explainer-idUSKCN1U50EZ,2026-06-06,Photoresist & specialty-chemical supply (Japan's ~90% resist share),
+samsung_fab,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-07,"Samsung semiconductor campuses (Pyeongtaek, Hwaseong, Taylor)",enrichment (Priority 2/3)
+semi_equipment,https://www.semi.org/en/products-services/market-data/equipment,2026-06-06,Worldwide semiconductor manufacturing equipment market shares,
+shinetsu_wafers,https://www.shinetsu.co.jp/en/products/semiconductor-silicon/,2026-06-06,Shin-Etsu Chemical — 300mm silicon wafer leadership,
+skhynix_fab,https://www.skhynix.com/eng/about/businessArea.do,2026-06-07,SK Hynix fab sites (M16 Icheon),enrichment (Priority 2/3)
+smic_fab,https://www.smics.com/en/site/company_intro,2026-06-07,SMIC fab locations (Shanghai),enrichment (Priority 2/3)
+soi_market,https://www.soitec.com/en/products,2026-06-06,SOI / engineered substrates — Soitec,
+sputter_market,https://www.jx-nmm.com/english/business/quality_material/,2026-06-07,High-purity sputtering targets for PVD metallisation,enrichment (Priority 2/3)
+st_gan,https://www.st.com/en/power-management/gallium-nitride-gan-power-ics.html,2026-06-07,STMicroelectronics MasterGaN gallium-nitride power ICs,enrichment (Priority 2/3)
+substrate_market,https://www.unimicron.com/en/products/,2026-06-06,"IC / ABF substrate market — Unimicron, Ibiden, Shinko, AT&S, Nan Ya PCB",
+subsystem_market,https://www.mks.com/n/semiconductor,2026-06-06,"Wafer-fab equipment subsystems — MKS, Ultra Clean, Edwards, Zeiss",
+sumco_wafers,https://www.sumcosi.com/english/products/,2026-06-06,SUMCO — silicon wafer products and customers,
+tsmc_ar2024,https://investor.tsmc.com/english/annual-reports,2026-06-06,"TSMC 2024 Annual Report — major customers, process nodes",
+tsmc_customers_2024,https://www.sec.gov/Archives/edgar/data/0001046179/000104617925000004/a4q24e_withguidancexfinal.htm,2026-06-07,"TSMC FY2024 customer concentration (top-10 ~76%; Apple ~25%, Nvidia ~10%)",enrichment (Priority 2/3)
+tsmc_mfg,https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07,TSMC manufacturing / fab locations & GigaFab capacities,enrichment (Priority 2/3)
+umc_fab,https://www.umc.com/en/Company/about_umc/page/Global_Presence,2026-06-07,UMC fab locations (Fab 12A Tainan),enrichment (Priority 2/3)
+wafer_market,https://www.semi.org/en/products-services/market-data/materials/semiconductor-silicon-wafer,2026-06-06,"Silicon wafer market — Shin-Etsu, SUMCO, GlobalWafers, Siltronic, SK Siltron",
+wf6_market,https://www.kantodenka.co.jp/english/products/,2026-06-07,Tungsten hexafluoride (WF6) for tungsten CVD,enrichment (Priority 2/3)
+wiki_advantest,https://en.wikipedia.org/wiki/Advantest,2026-06-06,"Advantest — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_air_liquide,https://en.wikipedia.org/wiki/Air_Liquide,2026-06-06,"Air Liquide — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_air_products_and_chemicals,https://en.wikipedia.org/wiki/Air_Products_and_Chemicals,2026-06-06,"Air Products — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_ajinomoto,https://en.wikipedia.org/wiki/Ajinomoto,2026-06-06,"Ajinomoto — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_amazon_(company),https://en.wikipedia.org/wiki/Amazon_(company),2026-06-06,"Amazon — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_ambarella_(company),https://en.wikipedia.org/wiki/Ambarella_(company),2026-06-06,"Ambarella — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_amd,https://en.wikipedia.org/wiki/AMD,2026-06-06,"AMD — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_amkor_technology,https://en.wikipedia.org/wiki/Amkor_Technology,2026-06-06,"Amkor — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_analog_devices,https://en.wikipedia.org/wiki/Analog_Devices,2026-06-06,"Analog Devices — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_apple_inc.,https://en.wikipedia.org/wiki/Apple_Inc.,2026-06-06,"Apple — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_applied_materials,https://en.wikipedia.org/wiki/Applied_Materials,2026-06-06,"Applied Materials — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_arm_holdings,https://en.wikipedia.org/wiki/Arm_Holdings,2026-06-06,"ARM — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_ase_technology_holding,https://en.wikipedia.org/wiki/ASE_Technology_Holding,2026-06-06,"ASE Group — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_asm_international,https://en.wikipedia.org/wiki/ASM_International,2026-06-06,"ASM International — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_asml_holding,https://en.wikipedia.org/wiki/ASML_Holding,2026-06-06,"ASML — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_at%26s,https://en.wikipedia.org/wiki/AT%26S,2026-06-06,"AT&S — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_broadcom,https://en.wikipedia.org/wiki/Broadcom,2026-06-06,"Broadcom — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_cadence_design_systems,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-06-06,"Cadence — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_canon_inc.,https://en.wikipedia.org/wiki/Canon_Inc.,2026-06-06,"Canon — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_carl_zeiss_ag,https://en.wikipedia.org/wiki/Carl_Zeiss_AG,2026-06-06,"Carl Zeiss SMT — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_cerebras,https://en.wikipedia.org/wiki/Cerebras,2026-06-06,"Cerebras — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+"wiki_ceva,_inc.","https://en.wikipedia.org/wiki/Ceva,_Inc.",2026-06-06,"Ceva — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_chipmos,https://en.wikipedia.org/wiki/ChipMOS,2026-06-06,"ChipMOS — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_dainippon_screen,https://en.wikipedia.org/wiki/Dainippon_Screen,2026-06-06,"Screen Holdings — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_disco_corporation,https://en.wikipedia.org/wiki/Disco_Corporation,2026-06-06,"Disco Corporation — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_dongjin_semichem,https://en.wikipedia.org/wiki/Dongjin_Semichem,2026-06-06,"Dongjin Semichem — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_dupont_(2017%e2%80%93present),https://en.wikipedia.org/wiki/DuPont_(2017%E2%80%93present),2026-06-06,"DuPont — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_edwards_vacuum,https://en.wikipedia.org/wiki/Edwards_Vacuum,2026-06-06,"Edwards Vacuum — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_entegris,https://en.wikipedia.org/wiki/Entegris,2026-06-06,"Entegris — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_foxconn,https://en.wikipedia.org/wiki/Foxconn,2026-06-06,"Foxconn — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_fujifilm,https://en.wikipedia.org/wiki/Fujifilm,2026-06-06,"Fujifilm — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_globalfoundries,https://en.wikipedia.org/wiki/GlobalFoundries,2026-06-06,"GlobalFoundries — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_globalwafers,https://en.wikipedia.org/wiki/GlobalWafers,2026-06-06,"GlobalWafers — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_google,https://en.wikipedia.org/wiki/Google,2026-06-06,"Google — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_hisilicon,https://en.wikipedia.org/wiki/HiSilicon,2026-06-06,"HiSilicon — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_hitachi_high-tech,https://en.wikipedia.org/wiki/Hitachi_High-Tech,2026-06-06,"Hitachi High-Tech — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_hoya_corporation,https://en.wikipedia.org/wiki/Hoya_Corporation,2026-06-06,"Hoya — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_hua_hong_semiconductor,https://en.wikipedia.org/wiki/Hua_Hong_Semiconductor,2026-06-06,"Hua Hong Semiconductor — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_ibiden,https://en.wikipedia.org/wiki/Ibiden,2026-06-06,"Ibiden — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_imagination_technologies,https://en.wikipedia.org/wiki/Imagination_Technologies,2026-06-06,"Imagination Technologies — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_infineon_technologies,https://en.wikipedia.org/wiki/Infineon_Technologies,2026-06-06,"Infineon — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_intel,https://en.wikipedia.org/wiki/Intel,2026-06-06,"Intel — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_jcet_group,https://en.wikipedia.org/wiki/JCET_Group,2026-06-06,"JCET — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_jsr_corporation,https://en.wikipedia.org/wiki/JSR_Corporation,2026-06-06,"JSR Corporation — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_king_yuan_electronics,https://en.wikipedia.org/wiki/King_Yuan_Electronics,2026-06-06,"King Yuan Electronics — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_kioxia,https://en.wikipedia.org/wiki/Kioxia,2026-06-06,"Kioxia — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_kla_corporation,https://en.wikipedia.org/wiki/KLA_Corporation,2026-06-06,"KLA — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_kulicke_%26_soffa,https://en.wikipedia.org/wiki/Kulicke_%26_Soffa,2026-06-06,"Kulicke & Soffa — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_lam_research,https://en.wikipedia.org/wiki/Lam_Research,2026-06-06,"Lam Research — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_lasertec,https://en.wikipedia.org/wiki/Lasertec,2026-06-06,"Lasertec — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_linde_plc,https://en.wikipedia.org/wiki/Linde_plc,2026-06-06,"Linde — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_marvell_technology,https://en.wikipedia.org/wiki/Marvell_Technology,2026-06-06,"Marvell — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_mediatek,https://en.wikipedia.org/wiki/MediaTek,2026-06-06,"MediaTek — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_mentor_graphics,https://en.wikipedia.org/wiki/Mentor_Graphics,2026-06-06,"Siemens EDA — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_merck_group,https://en.wikipedia.org/wiki/Merck_Group,2026-06-06,"Merck KGaA — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_messer_group,https://en.wikipedia.org/wiki/Messer_Group,2026-06-06,"Messer — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_microchip_technology,https://en.wikipedia.org/wiki/Microchip_Technology,2026-06-06,"Microchip — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_micron_technology,https://en.wikipedia.org/wiki/Micron_Technology,2026-06-06,"Micron — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_microsoft,https://en.wikipedia.org/wiki/Microsoft,2026-06-06,"Microsoft — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_mks_instruments,https://en.wikipedia.org/wiki/MKS_Instruments,2026-06-06,"MKS Instruments — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_nan_ya_pcb,https://en.wikipedia.org/wiki/Nan_Ya_PCB,2026-06-06,"Nan Ya PCB — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_nanya_technology,https://en.wikipedia.org/wiki/Nanya_Technology,2026-06-06,"Nanya Technology — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_nexchip,https://en.wikipedia.org/wiki/Nexchip,2026-06-06,"Nexchip — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_nikon,https://en.wikipedia.org/wiki/Nikon,2026-06-06,"Nikon — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_nippon_sanso,https://en.wikipedia.org/wiki/Nippon_Sanso,2026-06-06,"Taiyo Nippon Sanso — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_novatek_microelectronics,https://en.wikipedia.org/wiki/Novatek_Microelectronics,2026-06-06,"Novatek — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_nvidia,https://en.wikipedia.org/wiki/Nvidia,2026-06-06,"Nvidia — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_nxp_semiconductors,https://en.wikipedia.org/wiki/NXP_Semiconductors,2026-06-06,"NXP — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_onsemi,https://en.wikipedia.org/wiki/Onsemi,2026-06-06,"onsemi — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_onto_innovation,https://en.wikipedia.org/wiki/Onto_Innovation,2026-06-06,"Onto Innovation — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_photronics,https://en.wikipedia.org/wiki/Photronics,2026-06-06,"Photronics — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_powerchip,https://en.wikipedia.org/wiki/Powerchip,2026-06-06,"Powerchip (PSMC) — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_powertech_technology,https://en.wikipedia.org/wiki/Powertech_Technology,2026-06-06,"Powertech Technology — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_qualcomm,https://en.wikipedia.org/wiki/Qualcomm,2026-06-06,"Qualcomm — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_realtek,https://en.wikipedia.org/wiki/Realtek,2026-06-06,"Realtek — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_renesas_electronics,https://en.wikipedia.org/wiki/Renesas_Electronics,2026-06-06,"Renesas — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_resonac,https://en.wikipedia.org/wiki/Resonac,2026-06-06,"Resonac — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_rohm,https://en.wikipedia.org/wiki/Rohm,2026-06-06,"Rohm — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_samsung_electronics,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-06,"Samsung Memory — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_samsung_foundry,https://en.wikipedia.org/wiki/Samsung_Foundry,2026-06-06,"Samsung Foundry — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_semiconductor_manufacturing_international_corporation,https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation,2026-06-06,"SMIC — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_shin-etsu_chemical,https://en.wikipedia.org/wiki/Shin-Etsu_Chemical,2026-06-06,"Shin-Etsu Chemical — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_shinko_electric_industries,https://en.wikipedia.org/wiki/Shinko_Electric_Industries,2026-06-06,"Shinko Electric Industries — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_sifive,https://en.wikipedia.org/wiki/SiFive,2026-06-06,"SiFive — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_siltronic,https://en.wikipedia.org/wiki/Siltronic,2026-06-06,"Siltronic — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_sk_hynix,https://en.wikipedia.org/wiki/SK_Hynix,2026-06-06,"SK Hynix — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_sk_siltron,https://en.wikipedia.org/wiki/SK_Siltron,2026-06-06,"SK Siltron — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_soitec,https://en.wikipedia.org/wiki/Soitec,2026-06-06,"Soitec — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_stmicroelectronics,https://en.wikipedia.org/wiki/STMicroelectronics,2026-06-06,"STMicroelectronics — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_sumco,https://en.wikipedia.org/wiki/SUMCO,2026-06-06,"SUMCO — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_sumitomo_chemical,https://en.wikipedia.org/wiki/Sumitomo_Chemical,2026-06-06,"Sumitomo Chemical — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_synopsys,https://en.wikipedia.org/wiki/Synopsys,2026-06-06,"Synopsys — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_teradyne,https://en.wikipedia.org/wiki/Teradyne,2026-06-06,"Teradyne — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+"wiki_tesla,_inc.","https://en.wikipedia.org/wiki/Tesla,_Inc.",2026-06-06,"Tesla — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_texas_instruments,https://en.wikipedia.org/wiki/Texas_Instruments,2026-06-06,"Texas Instruments — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_tokyo_electron,https://en.wikipedia.org/wiki/Tokyo_Electron,2026-06-06,"Tokyo Electron — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_tokyo_ohka_kogyo,https://en.wikipedia.org/wiki/Tokyo_Ohka_Kogyo,2026-06-06,"Tokyo Ohka Kogyo — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_tongfu_microelectronics,https://en.wikipedia.org/wiki/Tongfu_Microelectronics,2026-06-06,"Tongfu Microelectronics — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_toppan,https://en.wikipedia.org/wiki/Toppan,2026-06-06,"Toppan Photomask — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_tower_semiconductor,https://en.wikipedia.org/wiki/Tower_Semiconductor,2026-06-06,"Tower Semiconductor — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_tsmc,https://en.wikipedia.org/wiki/TSMC,2026-06-06,"TSMC — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_ultra_clean_holdings,https://en.wikipedia.org/wiki/Ultra_Clean_Holdings,2026-06-06,"Ultra Clean Holdings — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_unimicron,https://en.wikipedia.org/wiki/Unimicron,2026-06-06,"Unimicron — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_united_microelectronics_corporation,https://en.wikipedia.org/wiki/United_Microelectronics_Corporation,2026-06-06,"UMC — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_utac,https://en.wikipedia.org/wiki/UTAC,2026-06-06,"UTAC — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_vanguard_international_semiconductor,https://en.wikipedia.org/wiki/Vanguard_International_Semiconductor,2026-06-06,"Vanguard (VIS) — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_western_digital,https://en.wikipedia.org/wiki/Western_Digital,2026-06-06,"Western Digital — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+wiki_wolfspeed,https://en.wikipedia.org/wiki/Wolfspeed,2026-06-06,"Wolfspeed — company profile (country, founded, employees)",Market cap cross-checked with companiesmarketcap.com
+worldbank_gdp,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,2026-06-07,"GDP (current US$) — World Bank national accounts, most recent year",enrichment (Priority 2/3)
+worldbank_wgi_pv,https://databank.worldbank.org/source/worldwide-governance-indicators,2026-06-07,WGI Political Stability & Absence of Violence/Terrorism estimate (~ -2.5..2.5),enrichment (Priority 2/3)
+wsts_market,https://www.wsts.org/,2026-06-06,World Semiconductor Trade Statistics — market size by segment,

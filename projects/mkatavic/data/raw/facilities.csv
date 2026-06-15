@@ -1,0 +1,19 @@
+name,city,country,type,capacity_wafers_month,source_url,source_date
+TSMC Fab 18,Tainan,Taiwan,fab,130000,https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07
+TSMC Fab 12,Hsinchu,Taiwan,fab,100000,https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07
+TSMC Fab 21 (Arizona),Phoenix,United States,fab,20000,https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07
+TSMC JASM,Kumamoto,Japan,fab,55000,https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07
+ESMC Dresden,Dresden,Germany,fab,,https://esmc.com/,2026-06-07
+Samsung Pyeongtaek Campus,Pyeongtaek,South Korea,fab,300000,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-07
+Samsung Hwaseong Campus,Hwaseong,South Korea,fab,200000,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-07
+Samsung Taylor,Taylor,United States,fab,,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-07
+Intel Ocotillo,Chandler,United States,fab,,https://www.intel.com/content/www/us/en/architecture-and-technology/arizona-fabs.html,2026-06-07
+Intel Rio Rancho,Rio Rancho,United States,assembly,,https://www.intel.com/content/www/us/en/architecture-and-technology/arizona-fabs.html,2026-06-07
+GlobalFoundries Fab 8,Malta,United States,fab,60000,https://gf.com/about-us/manufacturing/,2026-06-07
+Micron Hiroshima,Hiroshima,Japan,fab,,https://www.micron.com/about/our-commitment/operating-thoughtfully/global-locations,2026-06-07
+SK Hynix M16,Icheon,South Korea,fab,,https://www.skhynix.com/eng/about/businessArea.do,2026-06-07
+SMIC SN1,Shanghai,China,fab,35000,https://www.smics.com/en/site/company_intro,2026-06-07
+UMC Fab 12A,Tainan,Taiwan,fab,90000,https://www.umc.com/en/Company/about_umc/page/Global_Presence,2026-06-07
+Infineon Dresden,Dresden,Germany,fab,,https://www.infineon.com/cms/en/about-infineon/company/manufacturing/,2026-06-07
+ASML Veldhoven HQ,Veldhoven,Netherlands,R&D,,https://www.asml.com/en/company/about-asml/locations,2026-06-07
+Kioxia Yokkaichi,Yokkaichi,Japan,fab,,https://www.kioxia.com/en-jp/about/fab.html,2026-06-07

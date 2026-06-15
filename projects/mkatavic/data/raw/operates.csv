@@ -1,0 +1,19 @@
+company,facility,source_url,source_date
+TSMC,TSMC Fab 18,https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07
+TSMC,TSMC Fab 12,https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07
+TSMC,TSMC Fab 21 (Arizona),https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07
+TSMC,TSMC JASM,https://www.tsmc.com/english/dedicatedFoundry/manufacturing,2026-06-07
+TSMC,ESMC Dresden,https://esmc.com/,2026-06-07
+Samsung Memory,Samsung Pyeongtaek Campus,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-07
+Samsung Memory,Samsung Hwaseong Campus,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-07
+Samsung Foundry,Samsung Taylor,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-07
+Intel,Intel Ocotillo,https://www.intel.com/content/www/us/en/architecture-and-technology/arizona-fabs.html,2026-06-07
+Intel,Intel Rio Rancho,https://www.intel.com/content/www/us/en/architecture-and-technology/arizona-fabs.html,2026-06-07
+GlobalFoundries,GlobalFoundries Fab 8,https://gf.com/about-us/manufacturing/,2026-06-07
+Micron,Micron Hiroshima,https://www.micron.com/about/our-commitment/operating-thoughtfully/global-locations,2026-06-07
+SK Hynix,SK Hynix M16,https://www.skhynix.com/eng/about/businessArea.do,2026-06-07
+SMIC,SMIC SN1,https://www.smics.com/en/site/company_intro,2026-06-07
+UMC,UMC Fab 12A,https://www.umc.com/en/Company/about_umc/page/Global_Presence,2026-06-07
+Infineon,Infineon Dresden,https://www.infineon.com/cms/en/about-infineon/company/manufacturing/,2026-06-07
+ASML,ASML Veldhoven HQ,https://www.asml.com/en/company/about-asml/locations,2026-06-07
+Kioxia,Kioxia Yokkaichi,https://www.kioxia.com/en-jp/about/fab.html,2026-06-07

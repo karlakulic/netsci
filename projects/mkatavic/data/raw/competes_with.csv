@@ -1,0 +1,46 @@
+source,target,market_segment
+TSMC,Samsung Foundry,leading-edge foundry
+TSMC,Intel,leading-edge foundry
+TSMC,GlobalFoundries,foundry
+TSMC,UMC,foundry
+TSMC,SMIC,foundry
+UMC,SMIC,mature-node foundry
+GlobalFoundries,UMC,mature-node foundry
+Powerchip (PSMC),Vanguard (VIS),specialty foundry
+Hua Hong Semiconductor,Nexchip,mature-node foundry (China)
+Nvidia,AMD,GPU / datacenter accelerators
+AMD,Intel,x86 CPU
+Qualcomm,MediaTek,mobile SoC
+Broadcom,Marvell,networking / custom silicon
+Realtek,Novatek,display driver / connectivity
+Micron,SK Hynix,DRAM / NAND
+SK Hynix,Samsung Memory,DRAM / NAND
+Micron,Samsung Memory,DRAM / NAND
+Kioxia,Western Digital,NAND flash
+Nanya Technology,Micron,DRAM
+Applied Materials,Lam Research,wafer-fab equipment
+Lam Research,Tokyo Electron,etch / deposition equipment
+Applied Materials,Tokyo Electron,wafer-fab equipment
+ASML,Nikon,lithography
+Nikon,Canon,lithography
+Advantest,Teradyne,automated test equipment
+KLA,Onto Innovation,metrology / inspection
+Shin-Etsu Chemical,SUMCO,silicon wafers
+GlobalWafers,Siltronic,silicon wafers
+Tokyo Ohka Kogyo,JSR Corporation,photoresist
+Air Liquide,Linde,industrial gases
+Linde,Air Products,industrial gases
+Photronics,Toppan Photomask,photomasks
+Unimicron,Ibiden,IC substrates
+Ibiden,Shinko Electric Industries,IC substrates
+Synopsys,Cadence,EDA tools
+Cadence,Siemens EDA,EDA tools
+ARM,SiFive,CPU IP (Arm vs. RISC-V)
+Infineon,STMicroelectronics,power / automotive
+Infineon,onsemi,power / SiC
+Texas Instruments,Analog Devices,analog IC
+Wolfspeed,Rohm,silicon carbide
+ASE Group,Amkor,OSAT / packaging
+Amkor,JCET,OSAT / packaging
+ASE Group,JCET,OSAT / packaging
+Hoya,Toppan Photomask,EUV mask blanks / masks

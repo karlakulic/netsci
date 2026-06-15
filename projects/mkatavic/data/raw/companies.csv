@@ -1,0 +1,109 @@
+name,country,region,market_cap_usd,founded,employees,type,source_id,source_url,source_date
+ASML,Netherlands,Europe,320000000000,1984,44000,equipment,wiki_asml_holding,https://en.wikipedia.org/wiki/ASML_Holding,2026-06-06
+Applied Materials,United States,North America,145000000000,1967,35700,equipment,wiki_applied_materials,https://en.wikipedia.org/wiki/Applied_Materials,2026-06-06
+Lam Research,United States,North America,110000000000,1980,17200,equipment,wiki_lam_research,https://en.wikipedia.org/wiki/Lam_Research,2026-06-06
+KLA,United States,North America,95000000000,1997,15000,equipment,wiki_kla_corporation,https://en.wikipedia.org/wiki/KLA_Corporation,2026-06-06
+Tokyo Electron,Japan,Asia,110000000000,1963,18600,equipment,wiki_tokyo_electron,https://en.wikipedia.org/wiki/Tokyo_Electron,2026-06-06
+Nikon,Japan,Asia,5000000000,1917,19000,equipment,wiki_nikon,https://en.wikipedia.org/wiki/Nikon,2026-06-06
+Canon,Japan,Asia,40000000000,1937,180000,equipment,wiki_canon_inc.,https://en.wikipedia.org/wiki/Canon_Inc.,2026-06-06
+ASM International,Netherlands,Europe,30000000000,1968,5000,equipment,wiki_asm_international,https://en.wikipedia.org/wiki/ASM_International,2026-06-06
+Screen Holdings,Japan,Asia,9000000000,1943,8000,equipment,wiki_dainippon_screen,https://en.wikipedia.org/wiki/Dainippon_Screen,2026-06-06
+Hitachi High-Tech,Japan,Asia,,2001,11000,equipment,wiki_hitachi_high-tech,https://en.wikipedia.org/wiki/Hitachi_High-Tech,2026-06-06
+Advantest,Japan,Asia,35000000000,1954,7000,equipment,wiki_advantest,https://en.wikipedia.org/wiki/Advantest,2026-06-06
+Teradyne,United States,North America,18000000000,1960,6000,equipment,wiki_teradyne,https://en.wikipedia.org/wiki/Teradyne,2026-06-06
+Onto Innovation,United States,North America,8000000000,2019,2400,equipment,wiki_onto_innovation,https://en.wikipedia.org/wiki/Onto_Innovation,2026-06-06
+Lasertec,Japan,Asia,15000000000,1960,1000,equipment,wiki_lasertec,https://en.wikipedia.org/wiki/Lasertec,2026-06-06
+Disco Corporation,Japan,Asia,30000000000,1937,6000,equipment,wiki_disco_corporation,https://en.wikipedia.org/wiki/Disco_Corporation,2026-06-06
+Kulicke & Soffa,Singapore,Asia,3000000000,1951,3000,equipment,wiki_kulicke_%26_soffa,https://en.wikipedia.org/wiki/Kulicke_%26_Soffa,2026-06-06
+MKS Instruments,United States,North America,8000000000,1961,11000,subsystem,wiki_mks_instruments,https://en.wikipedia.org/wiki/MKS_Instruments,2026-06-06
+Ultra Clean Holdings,United States,North America,2000000000,1991,6000,subsystem,wiki_ultra_clean_holdings,https://en.wikipedia.org/wiki/Ultra_Clean_Holdings,2026-06-06
+Edwards Vacuum,United Kingdom,Europe,,1919,8000,subsystem,wiki_edwards_vacuum,https://en.wikipedia.org/wiki/Edwards_Vacuum,2026-06-06
+Carl Zeiss SMT,Germany,Europe,,1846,6000,subsystem,wiki_carl_zeiss_ag,https://en.wikipedia.org/wiki/Carl_Zeiss_AG,2026-06-06
+Shin-Etsu Chemical,Japan,Asia,80000000000,1926,26000,materials,wiki_shin-etsu_chemical,https://en.wikipedia.org/wiki/Shin-Etsu_Chemical,2026-06-06
+SUMCO,Japan,Asia,6000000000,1999,9400,materials,wiki_sumco,https://en.wikipedia.org/wiki/SUMCO,2026-06-06
+GlobalWafers,Taiwan,Asia,7000000000,2011,8000,materials,wiki_globalwafers,https://en.wikipedia.org/wiki/GlobalWafers,2026-06-06
+Siltronic,Germany,Europe,3000000000,2004,4400,materials,wiki_siltronic,https://en.wikipedia.org/wiki/Siltronic,2026-06-06
+SK Siltron,South Korea,Asia,,1983,4000,materials,wiki_sk_siltron,https://en.wikipedia.org/wiki/SK_Siltron,2026-06-06
+Tokyo Ohka Kogyo,Japan,Asia,5000000000,1940,4000,materials,wiki_tokyo_ohka_kogyo,https://en.wikipedia.org/wiki/Tokyo_Ohka_Kogyo,2026-06-06
+JSR Corporation,Japan,Asia,6000000000,1957,9000,materials,wiki_jsr_corporation,https://en.wikipedia.org/wiki/JSR_Corporation,2026-06-06
+Fujifilm,Japan,Asia,40000000000,1934,74000,materials,wiki_fujifilm,https://en.wikipedia.org/wiki/Fujifilm,2026-06-06
+Merck KGaA,Germany,Europe,70000000000,1668,63000,materials,wiki_merck_group,https://en.wikipedia.org/wiki/Merck_Group,2026-06-06
+DuPont,United States,North America,33000000000,1802,24000,materials,wiki_dupont_(2017%e2%80%93present),https://en.wikipedia.org/wiki/DuPont_(2017%E2%80%93present),2026-06-06
+Sumitomo Chemical,Japan,Asia,4000000000,1913,35000,materials,wiki_sumitomo_chemical,https://en.wikipedia.org/wiki/Sumitomo_Chemical,2026-06-06
+Resonac,Japan,Asia,5000000000,1939,24000,materials,wiki_resonac,https://en.wikipedia.org/wiki/Resonac,2026-06-06
+Dongjin Semichem,South Korea,Asia,,1967,2000,materials,wiki_dongjin_semichem,https://en.wikipedia.org/wiki/Dongjin_Semichem,2026-06-06
+Entegris,United States,North America,16000000000,1966,9400,materials,wiki_entegris,https://en.wikipedia.org/wiki/Entegris,2026-06-06
+Air Liquide,France,Europe,110000000000,1902,67000,gases,wiki_air_liquide,https://en.wikipedia.org/wiki/Air_Liquide,2026-06-06
+Linde,Germany,Europe,210000000000,1879,66000,gases,wiki_linde_plc,https://en.wikipedia.org/wiki/Linde_plc,2026-06-06
+Air Products,United States,North America,63000000000,1940,23000,gases,wiki_air_products_and_chemicals,https://en.wikipedia.org/wiki/Air_Products_and_Chemicals,2026-06-06
+Taiyo Nippon Sanso,Japan,Asia,15000000000,1910,19000,gases,wiki_nippon_sanso,https://en.wikipedia.org/wiki/Nippon_Sanso,2026-06-06
+Messer,Germany,Europe,,1898,11000,gases,wiki_messer_group,https://en.wikipedia.org/wiki/Messer_Group,2026-06-06
+Photronics,United States,North America,1500000000,1969,1900,photomask,wiki_photronics,https://en.wikipedia.org/wiki/Photronics,2026-06-06
+Toppan Photomask,Japan,Asia,,1900,3000,photomask,wiki_toppan,https://en.wikipedia.org/wiki/Toppan,2026-06-06
+Hoya,Japan,Asia,45000000000,1941,37000,photomask,wiki_hoya_corporation,https://en.wikipedia.org/wiki/Hoya_Corporation,2026-06-06
+Ajinomoto,Japan,Asia,20000000000,1909,34000,materials,wiki_ajinomoto,https://en.wikipedia.org/wiki/Ajinomoto,2026-06-06
+Unimicron,Taiwan,Asia,6000000000,1990,20000,substrate,wiki_unimicron,https://en.wikipedia.org/wiki/Unimicron,2026-06-06
+Ibiden,Japan,Asia,6000000000,1912,14000,substrate,wiki_ibiden,https://en.wikipedia.org/wiki/Ibiden,2026-06-06
+Shinko Electric Industries,Japan,Asia,5000000000,1946,6000,substrate,wiki_shinko_electric_industries,https://en.wikipedia.org/wiki/Shinko_Electric_Industries,2026-06-06
+AT&S,Austria,Europe,1000000000,1987,14000,substrate,wiki_at%26s,https://en.wikipedia.org/wiki/AT%26S,2026-06-06
+Nan Ya PCB,Taiwan,Asia,2000000000,1997,6000,substrate,wiki_nan_ya_pcb,https://en.wikipedia.org/wiki/Nan_Ya_PCB,2026-06-06
+Soitec,France,Europe,4000000000,1992,2000,materials,wiki_soitec,https://en.wikipedia.org/wiki/Soitec,2026-06-06
+TSMC,Taiwan,Asia,900000000000,1987,76000,fab,wiki_tsmc,https://en.wikipedia.org/wiki/TSMC,2026-06-06
+Samsung Foundry,South Korea,Asia,,2005,20000,fab,wiki_samsung_foundry,https://en.wikipedia.org/wiki/Samsung_Foundry,2026-06-06
+GlobalFoundries,United States,North America,25000000000,2009,13000,fab,wiki_globalfoundries,https://en.wikipedia.org/wiki/GlobalFoundries,2026-06-06
+UMC,Taiwan,Asia,18000000000,1980,20000,fab,wiki_united_microelectronics_corporation,https://en.wikipedia.org/wiki/United_Microelectronics_Corporation,2026-06-06
+SMIC,China,Asia,50000000000,2000,20000,fab,wiki_semiconductor_manufacturing_international_corporation,https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation,2026-06-06
+Hua Hong Semiconductor,China,Asia,6000000000,1996,6000,fab,wiki_hua_hong_semiconductor,https://en.wikipedia.org/wiki/Hua_Hong_Semiconductor,2026-06-06
+Tower Semiconductor,Israel,Middle East,5000000000,1993,6000,fab,wiki_tower_semiconductor,https://en.wikipedia.org/wiki/Tower_Semiconductor,2026-06-06
+Powerchip (PSMC),Taiwan,Asia,3000000000,1994,6000,fab,wiki_powerchip,https://en.wikipedia.org/wiki/Powerchip,2026-06-06
+Vanguard (VIS),Taiwan,Asia,6000000000,1994,5000,fab,wiki_vanguard_international_semiconductor,https://en.wikipedia.org/wiki/Vanguard_International_Semiconductor,2026-06-06
+Nexchip,China,Asia,6000000000,2015,4000,fab,wiki_nexchip,https://en.wikipedia.org/wiki/Nexchip,2026-06-06
+Samsung Memory,South Korea,Asia,,1983,40000,IDM,wiki_samsung_electronics,https://en.wikipedia.org/wiki/Samsung_Electronics,2026-06-06
+SK Hynix,South Korea,Asia,120000000000,1983,31000,IDM,wiki_sk_hynix,https://en.wikipedia.org/wiki/SK_Hynix,2026-06-06
+Micron,United States,North America,110000000000,1978,48000,IDM,wiki_micron_technology,https://en.wikipedia.org/wiki/Micron_Technology,2026-06-06
+Kioxia,Japan,Asia,10000000000,2017,15000,IDM,wiki_kioxia,https://en.wikipedia.org/wiki/Kioxia,2026-06-06
+Western Digital,United States,North America,22000000000,1970,51000,IDM,wiki_western_digital,https://en.wikipedia.org/wiki/Western_Digital,2026-06-06
+Nanya Technology,Taiwan,Asia,5000000000,1995,4000,IDM,wiki_nanya_technology,https://en.wikipedia.org/wiki/Nanya_Technology,2026-06-06
+Intel,United States,North America,130000000000,1968,108000,IDM,wiki_intel,https://en.wikipedia.org/wiki/Intel,2026-06-06
+Infineon,Germany,Europe,45000000000,1999,58000,IDM,wiki_infineon_technologies,https://en.wikipedia.org/wiki/Infineon_Technologies,2026-06-06
+STMicroelectronics,Switzerland,Europe,25000000000,1987,50000,IDM,wiki_stmicroelectronics,https://en.wikipedia.org/wiki/STMicroelectronics,2026-06-06
+NXP,Netherlands,Europe,55000000000,2006,34000,IDM,wiki_nxp_semiconductors,https://en.wikipedia.org/wiki/NXP_Semiconductors,2026-06-06
+Texas Instruments,United States,North America,170000000000,1930,34000,IDM,wiki_texas_instruments,https://en.wikipedia.org/wiki/Texas_Instruments,2026-06-06
+Analog Devices,United States,North America,110000000000,1965,24000,IDM,wiki_analog_devices,https://en.wikipedia.org/wiki/Analog_Devices,2026-06-06
+Microchip,United States,North America,40000000000,1989,22000,IDM,wiki_microchip_technology,https://en.wikipedia.org/wiki/Microchip_Technology,2026-06-06
+onsemi,United States,North America,30000000000,1999,32000,IDM,wiki_onsemi,https://en.wikipedia.org/wiki/Onsemi,2026-06-06
+Renesas,Japan,Asia,30000000000,2010,21000,IDM,wiki_renesas_electronics,https://en.wikipedia.org/wiki/Renesas_Electronics,2026-06-06
+Rohm,Japan,Asia,6000000000,1958,24000,IDM,wiki_rohm,https://en.wikipedia.org/wiki/Rohm,2026-06-06
+Wolfspeed,United States,North America,1000000000,1987,5000,IDM,wiki_wolfspeed,https://en.wikipedia.org/wiki/Wolfspeed,2026-06-06
+Nvidia,United States,North America,3000000000000,1993,30000,fabless,wiki_nvidia,https://en.wikipedia.org/wiki/Nvidia,2026-06-06
+AMD,United States,North America,200000000000,1969,26000,fabless,wiki_amd,https://en.wikipedia.org/wiki/AMD,2026-06-06
+Qualcomm,United States,North America,180000000000,1985,50000,fabless,wiki_qualcomm,https://en.wikipedia.org/wiki/Qualcomm,2026-06-06
+Broadcom,United States,North America,700000000000,1991,20000,fabless,wiki_broadcom,https://en.wikipedia.org/wiki/Broadcom,2026-06-06
+MediaTek,Taiwan,Asia,70000000000,1997,20000,fabless,wiki_mediatek,https://en.wikipedia.org/wiki/MediaTek,2026-06-06
+Apple,United States,North America,3200000000000,1976,164000,fabless,wiki_apple_inc.,https://en.wikipedia.org/wiki/Apple_Inc.,2026-06-06
+Marvell,United States,North America,60000000000,1995,6500,fabless,wiki_marvell_technology,https://en.wikipedia.org/wiki/Marvell_Technology,2026-06-06
+Realtek,Taiwan,Asia,8000000000,1987,6000,fabless,wiki_realtek,https://en.wikipedia.org/wiki/Realtek,2026-06-06
+Novatek,Taiwan,Asia,10000000000,1997,4000,fabless,wiki_novatek_microelectronics,https://en.wikipedia.org/wiki/Novatek_Microelectronics,2026-06-06
+HiSilicon,China,Asia,,2004,7000,fabless,wiki_hisilicon,https://en.wikipedia.org/wiki/HiSilicon,2026-06-06
+Google,United States,North America,2000000000000,1998,180000,fabless,wiki_google,https://en.wikipedia.org/wiki/Google,2026-06-06
+Amazon,United States,North America,1900000000000,1994,1500000,fabless,wiki_amazon_(company),https://en.wikipedia.org/wiki/Amazon_(company),2026-06-06
+Microsoft,United States,North America,3100000000000,1975,221000,fabless,wiki_microsoft,https://en.wikipedia.org/wiki/Microsoft,2026-06-06
+Tesla,United States,North America,800000000000,2003,140000,fabless,"wiki_tesla,_inc.","https://en.wikipedia.org/wiki/Tesla,_Inc.",2026-06-06
+Cerebras,United States,North America,,2015,400,fabless,wiki_cerebras,https://en.wikipedia.org/wiki/Cerebras,2026-06-06
+Ambarella,United States,North America,2000000000,2004,900,fabless,wiki_ambarella_(company),https://en.wikipedia.org/wiki/Ambarella_(company),2026-06-06
+Synopsys,United States,North America,85000000000,1986,20000,EDA,wiki_synopsys,https://en.wikipedia.org/wiki/Synopsys,2026-06-06
+Cadence,United States,North America,80000000000,1988,12000,EDA,wiki_cadence_design_systems,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-06-06
+Siemens EDA,United States,North America,,1981,6000,EDA,wiki_mentor_graphics,https://en.wikipedia.org/wiki/Mentor_Graphics,2026-06-06
+ARM,United Kingdom,Europe,140000000000,1990,7000,IP,wiki_arm_holdings,https://en.wikipedia.org/wiki/Arm_Holdings,2026-06-06
+Imagination Technologies,United Kingdom,Europe,,1985,1500,IP,wiki_imagination_technologies,https://en.wikipedia.org/wiki/Imagination_Technologies,2026-06-06
+SiFive,United States,North America,,2015,900,IP,wiki_sifive,https://en.wikipedia.org/wiki/SiFive,2026-06-06
+Ceva,United States,North America,,1999,500,IP,"wiki_ceva,_inc.","https://en.wikipedia.org/wiki/Ceva,_Inc.",2026-06-06
+ASE Group,Taiwan,Asia,20000000000,1984,90000,EMS,wiki_ase_technology_holding,https://en.wikipedia.org/wiki/ASE_Technology_Holding,2026-06-06
+Amkor,United States,North America,9000000000,1968,30000,EMS,wiki_amkor_technology,https://en.wikipedia.org/wiki/Amkor_Technology,2026-06-06
+JCET,China,Asia,8000000000,1972,25000,EMS,wiki_jcet_group,https://en.wikipedia.org/wiki/JCET_Group,2026-06-06
+Powertech Technology,Taiwan,Asia,4000000000,1997,15000,EMS,wiki_powertech_technology,https://en.wikipedia.org/wiki/Powertech_Technology,2026-06-06
+Tongfu Microelectronics,China,Asia,4000000000,1997,20000,EMS,wiki_tongfu_microelectronics,https://en.wikipedia.org/wiki/Tongfu_Microelectronics,2026-06-06
+King Yuan Electronics,Taiwan,Asia,2000000000,1987,18000,EMS,wiki_king_yuan_electronics,https://en.wikipedia.org/wiki/King_Yuan_Electronics,2026-06-06
+ChipMOS,Taiwan,Asia,1000000000,1997,7000,EMS,wiki_chipmos,https://en.wikipedia.org/wiki/ChipMOS,2026-06-06
+UTAC,Singapore,Asia,,1997,10000,EMS,wiki_utac,https://en.wikipedia.org/wiki/UTAC,2026-06-06
+Foxconn,Taiwan,Asia,70000000000,1974,770000,EMS,wiki_foxconn,https://en.wikipedia.org/wiki/Foxconn,2026-06-06

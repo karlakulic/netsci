@@ -1,0 +1,59 @@
+name,category,node_size_nm,year_introduced
+2nm logic wafer,logic,2,2025
+3nm logic wafer,logic,3,2022
+5nm logic wafer,logic,5,2020
+7nm logic wafer,logic,7,2018
+16nm logic wafer,logic,16,2015
+28nm logic wafer,logic,28,2011
+65nm logic wafer,logic,65,2006
+90nm logic wafer,logic,90,2004
+DRAM,memory,,
+DDR5 DRAM,memory,,2021
+NAND flash,memory,,
+3D NAND,memory,,2013
+HBM,memory,,2015
+NOR flash,memory,,
+Power semiconductor,analog,,
+SiC power device,analog,,
+GaN power device,analog,,
+Microcontroller (MCU),analog,,
+Analog IC,analog,,
+CMOS image sensor,analog,,
+RF front-end module,analog,,
+EUV lithography system,equipment,,2019
+DUV lithography system,equipment,,2001
+Nanoimprint lithography system,equipment,,2023
+Etch system,equipment,,
+CVD deposition system,equipment,,
+PVD deposition system,equipment,,
+ALD deposition system,equipment,,
+CMP system,equipment,,
+Ion implanter,equipment,,
+Metrology & inspection system,equipment,,
+Automated test equipment,equipment,,
+Wire bonder,equipment,,
+Dicing saw,equipment,,
+EUV mask inspection system,equipment,,2017
+Wafer cleaning system,equipment,,
+EUV optics module,equipment,,2019
+300mm silicon wafer,material,,2001
+200mm silicon wafer,material,,1990
+SOI wafer,material,,
+SiC substrate,material,,
+ArF photoresist,material,,
+EUV photoresist,material,,2019
+CMP slurry,material,,
+Specialty gases,material,,
+Bulk gases,material,,
+Photomask,material,,
+EUV mask blank,material,,2019
+ABF build-up film,material,,
+IC substrate,material,,
+Wet process chemicals,material,,
+EDA software,EDA,,
+CPU IP core,IP,,
+GPU IP core,IP,,
+RISC-V IP core,IP,,
+DSP IP core,IP,,
+Advanced packaging (2.5D/3D),package,,2016
+Flip-chip package,package,,
