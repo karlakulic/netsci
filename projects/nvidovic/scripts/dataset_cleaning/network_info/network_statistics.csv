@@ -1,0 +1,10 @@
+Metric,Value
+Total Number of Nodes,107913.0
+Total Number of Edges,226540.0
+Network Density,3.9e-05
+Average Degree,4.2
+Number of Communities,112.0
+Maximum Degree,455.0
+Minimum Degree,1.0
+Network Diameter (largest shortest path),15.0
+Average Clustering Coefficient,0.0
